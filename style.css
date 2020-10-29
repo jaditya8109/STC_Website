@@ -1,0 +1,71 @@
+img{
+    width: 100%;
+}
+#landing_page{
+    background-color: #202743;
+    color: white;
+    background-image: url("svg/waves.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
+.landing_page_content{
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+.arrow_class{
+    padding-bottom: 8vh;
+}
+.landing_para{
+    text-align: right;
+    font-size: 1.75em;
+    font-weight: 350;
+}
+.landing_head{
+    text-align: right;
+    font-size: 4.70em;
+    padding-bottom: 2vh;
+}
+#navbaritems a{
+    font-size: 1.15em;
+    color : white;
+    padding-left: 2em;
+}
+.nav_div{
+    padding-top: 3vh;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #landingpage_first {
+        order: 2;
+    }
+    #landingpage_second {
+        order: 4;
+    }
+    .landing_head{
+        text-align: center;
+        font-size: 2.5em;
+        padding-bottom: 2vh;
+    }
+    .landing_para{
+        text-align: center;
+        font-size: 1.25em;
+        font-weight: 300;
+        padding-bottom: 5vh;
+    }
+    .landing_page_content{
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    .nav_div{
+        padding-top: 1vh;
+    }
+    .arrow_class{
+        padding-bottom: 5vh;
+    }
+    #landing_page{
+        background-image: url("");
+        
+    } 
+}
