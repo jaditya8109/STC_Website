@@ -36,6 +36,26 @@ img{
     padding-top: 3vh;
 }
 
+/* our focus page */
+.binocularimage{
+    max-height: 10vh;
+    margin-bottom: 5vh;
+}
+.binoculardiv{
+    margin-top: 15vh;
+}
+.ourfocusheading{
+    margin-bottom: 3vh;
+    font-size: 3.5em;
+    font-weight: 475;
+}
+.ourfocuspara{
+    text-align: center;
+    margin-bottom: 20vh;
+    font-size: 1.20em;
+    font-weight: 375;
+}
+
 /* Student partnership css */
 
 #student_partnerships{
@@ -138,6 +158,16 @@ img{
     #landing_page{
         background-image: url("");
       } 
+
+    /* our focus page */
+    .binoculardiv{
+        margin-top: 10vh;
+    }
+    .ourfocuspara{
+        margin-bottom: 15vh;
+        
+    }  
+
       /* Student partnership css  */
     .partners_para{
         font-size: 1.15em;
