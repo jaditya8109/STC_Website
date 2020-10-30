@@ -1,130 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* landin page css */
 
-img{
-    width: 100%;
-}
-#landing_page{
+#landing_page {
     background-color: #202743;
     color: white;
     background-image: url("svg/waves.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
-} 
-.landing_page_content{
+}
+
+.landing_page_content {
     margin-top: 11vh;
     margin-bottom: 15vh;
 }
-.arrow_class{
+
+.arrow_class {
     padding-bottom: 8vh;
 }
-.landing_para{
+
+.landing_para {
     text-align: right;
     font-size: 1.75em;
     font-weight: 350;
 }
-.landing_head{
+
+.landing_head {
     text-align: right;
     font-size: 4.70em;
     padding-bottom: 2vh;
 }
-#navbaritems a{
+
+#navbaritems a {
     font-size: 1.15em;
-    color : white;
+    color: white;
     padding-left: 2em;
 }
-.nav_div{
+
+.nav_div {
     padding-top: 3vh;
 }
 
+
 /* our focus page */
-.binocularimage{
+
+.binocularimage {
     max-height: 10vh;
     margin-bottom: 5vh;
 }
-.binoculardiv{
+
+.binoculardiv {
     margin-top: 15vh;
 }
-.ourfocusheading{
+
+.ourfocusheading {
     margin-bottom: 3vh;
     font-size: 3.5em;
     font-weight: 475;
 }
-.ourfocuspara{
+
+.ourfocuspara {
     text-align: center;
     margin-bottom: 20vh;
     font-size: 1.20em;
     font-weight: 375;
 }
 
+
 /* Student partnership css */
 
-#student_partnerships{
+#student_partnerships {
     background-color: #202743;
     color: white;
 }
-.partner_head{
+
+.partner_head {
     margin-top: 9vh;
     margin-bottom: 5vh;
 }
-.partner_headingtag{
+
+.partner_headingtag {
     font-size: 3em;
 }
-.msa_image{
+
+.msa_image {
     height: 125px;
     width: 125px;
 }
-.partner_row2{
+
+.partner_row2 {
     padding-bottom: 8vh;
 }
-.partners_para{
+
+.partners_para {
     font-size: 1.15em;
     text-align: center;
     padding-bottom: 5vh;
     font-weight: 350;
 }
-.snapchat_image{
+
+.snapchat_image {
     height: 125px;
     width: 125px;
 }
-.amazon_div{
+
+.amazon_div {
     padding-right: 5em;
 }
 
+
 /* about app css */
 
-#about_app{
+#about_app {
     background-color: #13137a;
 }
-.appimage{
+
+.appimage {
     height: 100%;
 }
-.aboutappclass{
+
+.aboutappclass {
     margin-top: 20vh;
     color: white;
 }
-.aboutappimageclass{
+
+.aboutappimageclass {
     margin-top: 10vh;
     height: 60vh;
     margin-bottom: 7vh;
 }
-.gplayimag{
+
+.gplayimag {
     max-height: 15vh;
     max-width: 15vh;
 }
-.qrimage{
+
+.qrimage {
     max-height: 15vh;
     max-width: 15vh;
 }
-.aboutappheading{
+
+
+
+.aboutappheading {
     font-size: 2.25em;
     padding-bottom: 2vh;
     font-weight: 400;
 }
-.anoutapppara{
+
+.anoutapppara {
     font-size: 1.20em;
     font-weight: 350;
     padding-bottom: 5vh;
 }
+
+/* board page css */
+.boardd{
+    background-image: url("svg/boarddots.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 12vh;
+    margin-bottom: 5vh;
+}
+
 
 @media only screen and (max-width: 768px) {
     /* landin page css */
@@ -134,74 +179,188 @@ img{
     #landingpage_second {
         order: 4;
     }
-    .landing_head{
+    .landing_head {
         text-align: center;
         font-size: 2.5em;
         padding-bottom: 2vh;
     }
-    .landing_para{
+    .landing_para {
         text-align: center;
         font-size: 1.25em;
         font-weight: 300;
         padding-bottom: 5vh;
     }
-    .landing_page_content{
+    .landing_page_content {
         margin-top: 5vh;
         margin-bottom: 10vh;
     }
-    .nav_div{
+    .nav_div {
         padding-top: 1vh;
     }
-    .arrow_class{
+    .arrow_class {
         padding-bottom: 5vh;
     }
-    #landing_page{
+    #landing_page {
         background-image: url("");
-      } 
-
+    }
     /* our focus page */
-    .binoculardiv{
+    .binoculardiv {
         margin-top: 10vh;
     }
-    .ourfocuspara{
+    .ourfocuspara {
         margin-bottom: 15vh;
-        
-    }  
-
-      /* Student partnership css  */
-    .partners_para{
+    }
+    /* Student partnership css  */
+    .partners_para {
         font-size: 1.15em;
         text-align: center;
         padding-bottom: 5vh;
         font-weight: 350;
     }
-    .partner_headingtag{
+    .partner_headingtag {
         font-size: 2.10em;
     }
     /* about app css */
-    .aboutappheading{
+    .aboutappheading {
         text-align: center;
         font-size: 2em;
         padding-bottom: 2vh;
         font-weight: 400;
     }
-    .aboutappclass{
+    .aboutappclass {
         margin-top: 7vh;
         color: white;
     }
-    .anoutapppara{
+    .anoutapppara {
         text-align: center;
         font-size: 1.20em;
         font-weight: 300;
         padding-bottom: 5vh;
         padding-top: 5vh;
     }
-    .qrimage{
+    .qrimage {
         margin-top: 3vh;
     }
-    .aboutappimageclass{
+    .aboutappimageclass {
         margin-top: 5vh;
         height: 60vh;
         margin-bottom: 7vh;
+    }
+    /* board page css */
+    .boardd{
+        background-image: url("");
+        padding-bottom: 0vh;
+        margin-bottom: 5vh;
+    }
+}
+
+.b_heading {
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-top: 20vmin;
+}
+
+.b_pics {
+    margin-top: 6em;
+}
+
+footer .container-fluid {
+    background-color: #0B0E1D;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .board .b_pics p {
+        margin-top: 0.5px;
+        font-size: 1rem;
+    }
+}
+
+
+/* one.html */
+
+.domain_heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-top: 17vmin;
+    margin-bottom: 5vmin;
+}
+
+.domain_row_2 .h5 {
+    margin-top: 10vmin;
+}
+
+.domain_row_3 .about_domains {
+    margin-top: 3vmin;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* contact us page */
+
+.contact_us_page .contact_us_heading {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20vmin;
+    font-size: 3rem;
+}
+
+.contact_us_form {
+    position: relative;
+    margin-top: 5vmin;
+    margin-bottom: 5vh;
+}
+
+.contact_us_form input {
+    /* width: 582px; */
+    width: 80vmin;
+    height: 96px;
+    background-color: #f8f8f8;
+    border: 1px solid #3e3e3e;
+    border-radius: 10px;
+    padding-left: 5rem;
+}
+
+.contact_us_form .form-group label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact_us_form textarea {
+    position: relative;
+    width: 80vmin;
+    height: 200px;
+    background-color: #f8f8f8;
+    border: 1px solid #3e3e3e;
+    border-radius: 10px;
+    padding-left: 5rem;
+    padding-top: 1em;
+    color: black;
+}
+
+.contact_us_button button {
+    border-radius: 10px;
+    height: 42px;
+    width: 10rem;
+    margin-top: 2vmin;
+}
+
+@media only screen and (max-width: 600px) {
+    .username,
+    .email {
+        margin-top: -26vmin !important;
+    }
+    .textbox {
+        margin-top: -38vmin !important;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 700px) {
+    .username,
+    .email {
+        margin-top: -20vmin !important;
+    }
+    .textbox {
+        margin-top: -28vmin !important;
     }
 }
