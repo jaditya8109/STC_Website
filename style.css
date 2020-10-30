@@ -11,7 +11,7 @@ img{
     background-position: right bottom;
 } 
 .landing_page_content{
-    margin-top: 10vh;
+    margin-top: 11vh;
     margin-bottom: 15vh;
 }
 .arrow_class{
@@ -70,7 +70,41 @@ img{
     padding-right: 5em;
 }
 
+/* about app css */
 
+#about_app{
+    background-color: #13137a;
+}
+.appimage{
+    height: 100%;
+}
+.aboutappclass{
+    margin-top: 20vh;
+    color: white;
+}
+.aboutappimageclass{
+    margin-top: 10vh;
+    height: 60vh;
+    margin-bottom: 7vh;
+}
+.gplayimag{
+    max-height: 15vh;
+    max-width: 15vh;
+}
+.qrimage{
+    max-height: 15vh;
+    max-width: 15vh;
+}
+.aboutappheading{
+    font-size: 2.25em;
+    padding-bottom: 2vh;
+    font-weight: 400;
+}
+.anoutapppara{
+    font-size: 1.20em;
+    font-weight: 350;
+    padding-bottom: 5vh;
+}
 
 @media only screen and (max-width: 768px) {
     /* landin page css */
@@ -105,8 +139,7 @@ img{
         background-image: url("");
       } 
       /* Student partnership css  */
-
-      .partners_para{
+    .partners_para{
         font-size: 1.15em;
         text-align: center;
         padding-bottom: 5vh;
@@ -114,5 +147,31 @@ img{
     }
     .partner_headingtag{
         font-size: 2.10em;
+    }
+    /* about app css */
+    .aboutappheading{
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 2vh;
+        font-weight: 400;
+    }
+    .aboutappclass{
+        margin-top: 7vh;
+        color: white;
+    }
+    .anoutapppara{
+        text-align: center;
+        font-size: 1.20em;
+        font-weight: 300;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+    .qrimage{
+        margin-top: 3vh;
+    }
+    .aboutappimageclass{
+        margin-top: 5vh;
+        height: 60vh;
+        margin-bottom: 7vh;
     }
 }
