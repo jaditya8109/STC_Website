@@ -147,8 +147,6 @@
     max-width: 15vh;
 }
 
-
-
 .aboutappheading {
     font-size: 2.25em;
     padding-bottom: 2vh;
@@ -161,15 +159,8 @@
     padding-bottom: 5vh;
 }
 
-/* board page css */
-.boardd{
-    background-image: url("svg/boarddots.svg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    padding-bottom: 12vh;
-    margin-bottom: 5vh;
-}
 
+/* board page css */
 
 @media only screen and (max-width: 768px) {
     /* landin page css */
@@ -246,12 +237,21 @@
         height: 60vh;
         margin-bottom: 7vh;
     }
-    /* board page css */
-    .boardd{
-        background-image: url("");
-        padding-bottom: 0vh;
-        margin-bottom: 5vh;
+}
+
+@media only screen and (max-width:800px) {
+    .circle {
+        /* width: 23vw; */
+        width: 18vw;
     }
+    .boarddots {
+        /* width: 15vw; */
+        width: 11vw;
+    }
+}
+
+.board {
+    font-family: 'Roboto', sans-serif;
 }
 
 .b_heading {
@@ -264,9 +264,16 @@
     margin-top: 6em;
 }
 
-footer .container-fluid {
-    background-color: #0B0E1D;
-    color: #fff;
+.b_pics span.lead {
+    margin-top: -3px;
+    margin-bottom: 15vmin;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.b_pics p.h5 {
+    /* background-color: rebeccapurple; */
+    /* margin-bottom: 5rem; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -296,8 +303,39 @@ footer .container-fluid {
     font-size: 1rem;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.domains_mobile_view {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .domains_mobile_view {
+        display: block;
+        margin-bottom: 15vmin;
+    }
+    .domain_row_2 {
+        display: none;
+    }
+}
+
 
 /* contact us page */
+
+.contact_us_page {
+    margin-bottom: 20vmin;
+}
+
+.contact_us_page .container {
+    height: fit-content;
+}
+
+.contact_us_page .container .row {
+    height: fit-content;
+}
 
 .contact_us_page .contact_us_heading {
     font-family: 'Roboto', sans-serif;
@@ -308,7 +346,6 @@ footer .container-fluid {
 .contact_us_form {
     position: relative;
     margin-top: 5vmin;
-    margin-bottom: 5vh;
 }
 
 .contact_us_form input {
@@ -345,22 +382,34 @@ footer .container-fluid {
     margin-top: 2vmin;
 }
 
-@media only screen and (max-width: 600px) {
-    .username,
-    .email {
-        margin-top: -26vmin !important;
-    }
-    .textbox {
-        margin-top: -38vmin !important;
-    }
+
+/* footer */
+
+.footer_stc {
+    background-color: #0B0E1D;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    /* height: 100vh; */
 }
 
-@media only screen and (min-width:600px) and (max-width: 700px) {
-    .username,
-    .email {
-        margin-top: -20vmin !important;
-    }
-    .textbox {
-        margin-top: -28vmin !important;
-    }
+.footer_stc .footer_row_one ul {
+    list-style: none;
 }
+
+.footer_stc .footer_row_one .col-md-4 {
+    margin-top: 15vmin;
+}
+
+.footer_stc .footer_row_one .col-md-4 img {
+    padding: 0rem 1rem;
+}
+
+.footer_stc .footer_row_one ul li {
+    padding: 1.5rem 0rem;
+}
+
+.footer_row_3 p {
+    margin-top: 5vmin;
+}
+
+@media only screen and (max-width: 600px) {}
