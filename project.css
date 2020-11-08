@@ -1,0 +1,64 @@
+body{
+    color: white;
+}
+#navbaritems a {
+    font-size: 1.15em;
+    color: white;
+    padding-left: 2em;
+}
+
+.nav_div {
+    padding-top: 1vh;
+}
+#project{
+    background-color: #202743;
+    background-image: url("svg/waves.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.projecthead{
+    color: white;
+    margin-top: 10vh;
+    font-size: 6em;
+    font-weight: 475;
+}
+.projectpara{
+    color: white;
+    margin-top: 3vh;  
+    font-weight: 375;
+    font-size: 1.1em;
+    margin-bottom: 20vh;
+}
+.secondrow{
+    margin-top: 15vh;
+    margin-bottom: 30vh;
+}
+.cardhead{
+    font-size: 1.1em;
+}
+
+.card{
+    max-width: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+    .secondrow{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+    .card{
+        max-width: 100%;
+        margin-bottom: 10vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .projecthead{
+        margin-top: 10vh;
+        text-align: center;
+    }
+    .projectpara{
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+        text-align: center;
+    }
+}
