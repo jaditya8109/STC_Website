@@ -42,6 +42,39 @@ body{
     border-radius: 20px !important;
 }
 
+/* footer */
+
+.footerstclogo{
+    height: 15vh !important;
+}
+
+.footer_stc {
+    background-color: #0B0E1D;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    /* height: 100vh; */
+}
+
+.footer_stc .footer_row_one ul {
+    list-style: none;
+}
+
+.footer_stc .footer_row_one .col-md-4 {
+    margin-top: 15vmin;
+}
+
+.footer_stc .footer_row_one .col-md-4 img {
+    padding: 0rem 1rem;
+}
+
+.footer_stc .footer_row_one ul li {
+    padding: 1.5rem 0rem;
+}
+
+.footer_row_3 p {
+    margin-top: 5vmin;
+}
+
 @media only screen and (max-width: 768px) {
     .secondrow{
         margin-top: 0vh;
