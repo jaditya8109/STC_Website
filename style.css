@@ -74,6 +74,9 @@
 }
 
 
+/* slider css */
+
+
 /* Student partnership css */
 
 #student_partnerships {
@@ -271,11 +274,6 @@
     font-weight: bolder;
 }
 
-.b_pics p.h5 {
-    /* background-color: rebeccapurple; */
-    /* margin-bottom: 5rem; */
-}
-
 @media only screen and (max-width: 600px) {
     .board .b_pics p {
         margin-top: 0.5px;
@@ -303,11 +301,6 @@
     font-size: 1rem;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
-
 .domains_mobile_view {
     display: none;
 }
@@ -316,6 +309,11 @@
     .domains_mobile_view {
         display: block;
         margin-bottom: 15vmin;
+    }
+    .domains_mobile_view .carousel-control-prev .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 2rem;
+        height: 15rem;
     }
     .domain_row_2 {
         display: none;
@@ -386,7 +384,7 @@
 /* footer */
 
 .footer_stc {
-    background-color: #0B0E1D;
+    background-color: #202743;
     font-family: 'Raleway', sans-serif;
     color: #fff;
     /* height: 100vh; */
@@ -408,8 +406,12 @@
     padding: 1.5rem 0rem;
 }
 
+.footer_stc .footer_row_one ul li a {
+    color: #fff;
+}
+
 .footer_row_3 p {
     margin-top: 5vmin;
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 767px) {}
