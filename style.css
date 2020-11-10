@@ -133,6 +133,7 @@
     perspective: 1000px;
     transform-style: preserve-3d;
     margin-bottom: 10rem;
+    max-width: 99%;
 }
 
 #slider label {
@@ -287,6 +288,9 @@
 
 @media only screen and (max-width: 768px) {
     /* landin page css */
+    .wavesbg{
+        display: none;
+    }
     #landingpage_first {
         order: 2;
     }
@@ -566,5 +570,58 @@
     #footer_mobile .row_link ul,
     .row_get_touch ul {
         list-style: none;
+    }
+}
+
+/* nav */
+
+#SideNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#SideNav a {
+    padding: 8px 8px 30px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#SideNav a:hover {
+    color: #f1f1f1;
+}
+
+#SideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+@media(max-width:767px){
+    .navbar-dark .navbar-nav{
+        display: none;
+    }
+    
+    #SideNav {
+        padding-top: 15px;
+    }
+
+    #SideNav a {
+        font-size: 18px;
+    }
+    .mobilehome{
+        margin-top: 10vh;
     }
 }
