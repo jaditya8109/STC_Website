@@ -19,6 +19,14 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (max-width: 767px) {
+    html,
+    body {
+        margin-top: 0px;
+        overflow-x: hidden;
+    }
+}
+
 
 /* landin page css */
 
