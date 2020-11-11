@@ -19,35 +19,6 @@
     bottom: 0;
     right: 0;
     width: 30vw;
-    animation: smallwave 4s infinite;
-}
-
-
-/* #test {
-    /* animation: arrow 2s infinite; }*/
-
-@keyframes smallwave {
-    0% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.1);
-        bottom: 2vh;
-    }
-    100% {
-        transform: scaleY(1);
-        bottom: 0;
-    }
-}
-
-@keyframes arrow {
-    0% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.2);
-        bottom: 2vh;
-    }
 }
 
 .landing_page_content {
@@ -215,8 +186,7 @@
 }
 
 .msa_image {
-    height: 125px;
-    width: 125px;
+    height: 16vh;
 }
 
 .partner_row2 {
@@ -231,14 +201,17 @@
 }
 
 .snapchat_image {
-    height: 125px;
-    width: 125px;
+    height: 15vh
 }
 
 .amazon_div {
     padding-right: 5em;
 }
-
+#ImgAlexaSnap img{
+    margin-top: 5vh;
+    height: 15vh;
+    margin-bottom: 5vh;
+}
 
 /* about app css */
 
@@ -602,11 +575,11 @@
 }
 
 #SideNav .closebtn {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    right: 25px;
+    right: 25px; */
     font-size: 36px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 
 @media(max-width:767px){
