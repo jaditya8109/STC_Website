@@ -33,6 +33,7 @@ html {
 #landing_page {
     background-color: #202743;
     color: white;
+    height:100vh;
 }
 
 .wavesbg {
@@ -77,11 +78,9 @@ html {
 /* our focus page */
 
 
-/* #our_focus{
-    background-image: url("svg/circle\ 1.svg");
-    background-repeat: no-repeat;
-    background-position: right top;
-} */
+#our_focus{
+    margin-top: 5.75rem;
+}
 
 .binocularimage {
     max-height: 10vh;
@@ -581,6 +580,8 @@ html {
         list-style: none;
     }
 }
+
+
 
 
 /* nav */
