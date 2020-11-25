@@ -77,8 +77,7 @@ html {
 
 /* our focus page */
 
-
-#our_focus{
+#our_focus {
     margin-top: 6.5rem;
 }
 
@@ -407,20 +406,31 @@ html {
 }
 
 .b_pics {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
     margin-top: 6em;
 }
 
+.b_pics p.h5 {
+    font-weight: bold;
+}
+
 .b_pics span.lead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -3px;
     margin-bottom: 15vmin;
     font-size: 16px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 @media only screen and (max-width: 600px) {
     .board .b_pics p {
         margin-top: 0.5px;
         font-size: 1rem;
+        text-align: center;
+    }
+    .b_pics span.lead {
+        text-align: center;
     }
 }
 
@@ -580,8 +590,6 @@ html {
         list-style: none;
     }
 }
-
-
 
 
 /* nav */
