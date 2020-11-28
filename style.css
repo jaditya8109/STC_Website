@@ -78,7 +78,7 @@ html {
 /* our focus page */
 
 #our_focus {
-    margin-top: 6.5rem;
+    margin-top: 15vh;
 }
 
 .binocularimage {
@@ -91,7 +91,7 @@ html {
 }
 
 .ourfocusheading {
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     font-size: 3.5em;
     font-weight: 475;
 }
@@ -99,8 +99,8 @@ html {
 .ourfocuspara {
     text-align: center;
     margin-bottom: vh;
-    font-size: 1.20em;
-    font-weight: 375;
+    font-size: 1.35em;
+    font-weight: 400;
 }
 
 .Lorempara {
@@ -317,7 +317,7 @@ html {
     }
     .landing_page_content {
         margin-top: 5vh;
-        margin-bottom: 10vh;
+        margin-bottom: 8vh;
     }
     .nav_div {
         padding-top: 1vh;
@@ -341,7 +341,7 @@ html {
         padding-bottom: 10vh;
     }
     .binoculardiv {
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
     .ourfocuspara {
         margin-bottom: 15vh;
