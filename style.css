@@ -33,7 +33,7 @@ html {
 #landing_page {
     background-color: #202743;
     color: white;
-    /* height:100vh; */
+    min-height: 100vh;
 }
 
 .wavesbg {
@@ -49,7 +49,7 @@ html {
 }
 
 .arrow_class {
-    padding-bottom: 6vh;
+    /* padding-bottom: 6vh; */
 }
 
 .landing_para {
@@ -78,7 +78,7 @@ html {
 /* our focus page */
 
 #our_focus {
-    margin-top: 6.5rem;
+    margin-top: 0.5rem;
 }
 
 .binocularimage {
@@ -466,6 +466,9 @@ html {
     .domains_mobile_view {
         display: block;
         margin-bottom: 15vmin;
+    }
+    .domains_mobile_view .carousel-item {
+        height: 30rem;
     }
     .domains_mobile_view .carousel-control-prev .carousel-control-prev-icon,
     .carousel-control-next-icon {
