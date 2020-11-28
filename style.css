@@ -481,6 +481,7 @@ html {
 /* contact us page */
 
 .contact_us_page {
+    margin-top: -4rem;
     margin-bottom: 20vmin;
 }
 
