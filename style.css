@@ -78,7 +78,7 @@ html {
 /* our focus page */
 
 #our_focus {
-    margin-top: 15vh;
+    margin-top: 16vh;
 }
 
 .binocularimage {
@@ -341,10 +341,12 @@ html {
         padding-bottom: 10vh;
     }
     .binoculardiv {
-        margin-top: 5vh;
+        margin-top: 6vh;
     }
     .ourfocuspara {
         margin-bottom: 15vh;
+        font-size: 1.20em;
+        font-weight: 375;
     }
     /* Student partnership css  */
     .partners_para {
