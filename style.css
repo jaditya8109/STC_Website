@@ -79,6 +79,7 @@ html {
 
 #our_focus {
     margin-top: 0.5rem;
+    height: 100vh;
 }
 
 .binocularimage {
@@ -108,6 +109,10 @@ html {
     margin-bottom: vh;
     font-size: 1.20em;
     font-weight: 375;
+}
+
+#loremipsum {
+    margin-top: -5rem;
 }
 
 
