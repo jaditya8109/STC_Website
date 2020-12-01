@@ -29,15 +29,15 @@ body{
     font-size: 1.1em;
     margin-bottom: 20vh;
 }
-.secondrow{
-    margin-top: 15vh;
-    margin-bottom: 30vh;
+.cardsdiv{
+    margin-bottom: 15vh;
 }
 .cardhead{
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 .card{
+    margin-bottom: 15vh;
     max-width: 85%;
     border-radius: 20px !important;
 }
@@ -179,3 +179,9 @@ body{
         margin-top: 10vh;
     }
 }
+
+/* @media only screen and (max-width: 991px){
+    .card{
+        margin-bottom: 5vh;
+    }
+} */
