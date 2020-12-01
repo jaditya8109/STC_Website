@@ -428,11 +428,24 @@ html {
     margin-bottom: 15vmin;
     font-size: 16px;
     text-align: center;
-    /* font-weight: bolder; */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 470px) {
+    .nish {
+        margin-top: 23px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .board .b_pics p {
+    .b_pics .row p {
         margin-top: 0.5px;
         font-size: 1rem;
         text-align: center;
