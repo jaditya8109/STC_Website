@@ -1,403 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="project.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-            crossorigin="anonymous" />
-        <title>Projects</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <title>Projects</title>
+</head>
 
-    <body>
-        <section id="project">
-            <div class="container-fluid nav_div">
-                <div class="row justify-content-center">
-                    <div class="col-10">
-                        <nav class="navbar navbar-expand-lg navbar-dark">
-                            <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
-                            <button class="navbar-toggler" type="button" onclick="openNav()">
+<body>
+    <section id="project">
+        <div class="container-fluid nav_div">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
+                        <button class="navbar-toggler" type="button" onclick="openNav()">
                                 <span class="navbar-toggler-icon" role="button"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbaritems">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a href="./index.html" class="nav-link">Home </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#board" class="nav-link">The Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#focus_our" class="nav-link">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#contact_para" class="nav-link">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div id="SideNav" class="sidenavR">
-                                <a href="javascript:void(0)" class="closebtn text-center"
-                                    onclick="closeNav()">&times;</a>
-                                <a href="./index.html" onclick="closeNav()" class="text-center">Home</a>
-                                <a href="./index.html#board" onclick="closeNav()" class="text-center">The Team</a>
-                                <a href="./index.html#focus_our" onclick="closeNav()" class="text-center">About
-                                    Us</a>
-                                <a href="./index.html#contact_para" onclick="closeNav()" class="text-center">Contact
-                                    Us</a>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <h1 class="projecthead">Projects</h1>
-                        <p class="projectpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at
-                            mauris eget mauris pulvinar ornare ut eget dolor. Morbi libero dolor, laoreet a tempus </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="row justify-content-between cardsdiv">
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">STC APP</h4>
-                                        <p class="card-text text-center">An android app that showcases what STC does and
-                                            also contains resources to boot off in various development domain. The app
-                                            has special features for STC to manage workflow in STC.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">STC WEBSITE</h4>
-                                        <p class="card-text text-center">A responsive website highlighting the features,
-                                            domains, events and projects of STC.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">HACK PORTAL</h4>
-                                        <p class="card-text text-center">A software that allows students to find
-                                            teammates to take part in Various hackathons. It also allows VIT Chapters to
-                                            post about their hackathons to which students can register.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">RECRUITMENT PORTAL</h4>
-                                        <p class="card-text text-center">This portal is primarily a medium in order to
-                                            resolve some of the most common problems that are being faced by the
-                                            recruiters particularly serving the club or the chapter recruitment in a
-                                            University. We get a choice
-                                            among a numerous number of test conducting portals which are designed to
-                                            serve the same purpose but none of them is as effective to just have an
-                                            interface in order to conduct the test and get the results in the
-                                            simplest way possible.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">ROZGAR</h4>
-                                        <p class="card-text text-center">Rozgar is a humble app that aims to bring
-                                            employment to the poorest of the poor of our country who don't have Whatsapp
-                                            or LinkedIn to search for jobs. We all know the plight of migrant labourers
-                                            post-COVID-19. A lot
-                                            of the daily-wage-workers rushed to their homes in villages when the
-                                            lockdown was instated. Now that these restrictions are being lifted, it's a
-                                            real challenge for them to find employment. A lot of old businesses
-                                            have been shut down and many others are running at a reduced capacity.
-                                            Workers can use their simple 2G Feature Phones to register themselves on a
-                                            nationwide database of workers actively seeking for employment by
-                                            just sending a message. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">SMRITI</h4>
-                                        <p class="card-text text-center">Smriti is a humble app that allows Alzheimer's
-                                            patients to live happier and fulfilling lives by enabling them to
-                                            independently carry out tasks that they otherwise struggle with. Using out
-                                            IOT based special glasses,
-                                            patients can identify who the person standing in front of them is. They can
-                                            also ask the date and time as well as keep track of their reminders and
-                                            schedules all in one place. A functionality to book a cab in case
-                                            the patient finds themselves lost has also been given. These features will
-                                            allow patients to live more dignified and independent lives</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">FFCSonTheGo</h4>
-                                        <p class="card-text text-center">FFCSonTheGo has a lot of potential features
-                                            that helps the students in the campus to help them in making effective and
-                                            accurate time tables for the upcoming semesters and prevents them from
-                                            falling into troubles during
-                                            the credit choice system according to the fully flexible Credit System. To
-                                            provide a sleek interface with the required number of functionalities that
-                                            help the students to navigate easier and maintain the same standards
-                                            over the years is one of the primary responsibilities and objectives of
-                                            FFCSOnTheGo.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">AMAZON FAKE REVIEW DECTECTOR</h4>
-                                        <p class="card-text text-center">Amazon Fake Review Detector is a natural
-                                            language processing-based application that helps user to find reliability of
-                                            reviews on any particular amazon product by finding the genuine reviews from
-                                            all the reviews. User
-                                            can input URL of any product in url input section. All the reviews of that
-                                            particular product are then scrapped by node js backend using request and
-                                            cheerio libraries and save in a csv file. Machine learning model
-                                            then detects all the fake reviews and mark them as 1. Generally, reviews
-                                            that have too many spelling or grammar mistakes or reviews that are very
-                                            short or empty are considered fake by ml model. ML model then sends
-                                            0 or 1 corresponding to each review to node js and then backend calculates
-                                            prediction percentage of fake reviews and also average confidence or surety
-                                            of fake of review.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">EDUFUN</h4>
-                                        <p class="card-text text-center">The solution we came up with involves easy and
-                                            quick matching of tutors and students in just a few seconds through an
-                                            interactive AI solution. The best way to check the compatibility between the
-                                            personalities of two
-                                            people is the thought-process or the outlook both of them have on any one
-                                            particular topic. In the case of teachers and students, this relates to how
-                                            both of them view a particular course, be it vocational or strictly
-                                            academic. To reduce unnecessary browsing to find the best match, the student
-                                            can just enter their outlook on a particular course and find the teachers
-                                            who have the most similar outlook for that course. To further
-                                            enhance the experience, once the student finds a match, they can view the
-                                            teacher’s best resources that he/she has put up and can also attempt
-                                            auto-generated tests (automation of test generation further reduces
-                                            the burden and time of the tutors) to get a complete overview of that tutor
-                                            and assess whether it’s a right match.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">COVIFIGHT</h4>
-                                        <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit. Suspendisse condimentum eget nulla lacinia congue. Mauris
-                                            facilisis hendrerit consectetur nulla. Pellentesque fringilla lectus id
-                                            risus hendrerit, non dapibus
-                                            nulla condimentum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">IMAGE SEGREGATOR MODEL</h4>
-                                        <p class="card-text text-center">An app for traversing through the gallery and
-                                            segregating the pics of notes from other normal pics. Helpful in studying
-                                            from mobile phones. Helps in storage management as the notes can be deleted
-                                            in bulk after they
-                                            are not required anymore rather than deleting them one by one.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">VIT ATTENDANCE TAKER</h4>
-                                        <p class="card-text text-center">An android app to take attendance of VIT
-                                            students by scanning barcode at the back of VIT ID card.s</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="footer_stc">
-            <div class="container  ">
-                <div class="row footer_row_one d-flex justify-content-center">
-
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="col-xs-12">
-
-                            <ul>
-                                <p class="qlink">
-                                    <h4>Quick Links</h4>
-                                </p>
-
-                                <li><a href="./index.html#landing_page">Home</a> </li>
-                                <li><a href="./project.html"> Projects</a></li>
-                                <li><a href="./events.html">Events</a> </li>
-                                <li><a href="./index.html#student_partnerships">Student Partnerships</a> </li>
-                                <li><a href="./index.html#about_app">STC App</a> </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-
-                        <p>
-                            <ul>
-                                <p class="">
-                                    <h4 class="d-flex justify-content-center" style="padding-left:1rem;">Get In Touch
-                                    </h4>
-                                </p>
-                                <li><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
-                                <li><img src="./svg/email_get in touch.svg" alt=""> Email</li>
-                                <li><img src="./svg/contact.svg" alt=""> Contact</li>
-
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-
-                        <p>
-                            <ul>
-                                <p class="">
-                                    <h4 class="d-flex justify-content-center" style="padding: 0 40px 0 0;">Social</h4>
-                                </p>
-                                <li><img src="./svg/insta.svg" alt=""><a
-                                        href="https://www.instagram.com/mstcvit/">Instagram</a> </li>
-                                <li><img src="./svg/facebook.svg" alt=""><a
-                                        href="https://www.facebook.com/mstcvit">Facebook</a> </li>
-                                <li><img src="./svg/linkedin.svg" alt=""><a
-                                        href="https://www.linkedin.com/company/micvitvellore/">Linked In</a> </li>
-                                <li><img src="./svg/medium.svg" alt=""><a
-                                        href="https://medium.com/student-technical-community-vit-vellore"> Medium</a>
+                        <div class="collapse navbar-collapse" id="navbaritems">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#board" class="nav-link">The Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#focus_our" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#contact_para" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="row footer_row_2 d-flex justify-content-center align-items-center">
-                    <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
-
-                </div>
-                <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
-                    <p> &copy;2020 <span style="color: #5A5AFF;"> Student Technical Community</span> <br> <span
-                            class="text-muted">Designed by STC Design Team</span>
-                    </p>
-
-
+                        </div>
+                        <div id="SideNav" class="sidenavR">
+                            <a href="javascript:void(0)" class="closebtn text-center" onclick="closeNav()">&times;</a>
+                            <a href="./index.html" onclick="closeNav()" class="text-center">Home</a>
+                            <a href="./index.html#board" onclick="closeNav()" class="text-center">The Team</a>
+                            <a href="./index.html#focus_our" onclick="closeNav()" class="text-center">About
+                                    Us</a>
+                            <a href="./index.html#contact_para" onclick="closeNav()" class="text-center">Contact
+                                    Us</a>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </section>
-
-
-        <section id="footer_mobile">
-            <div class="container">
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto pt-5">Quick Links</p>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h1 class="projecthead">Projects</h1>
+                    <p class="projectpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at mauris eget mauris pulvinar ornare ut eget dolor. Morbi libero dolor, laoreet a tempus </p>
                 </div>
-                <div class="row row_link">
-                    <div class="col-6 d-flex justify-content-center align-items-center p-3">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row justify-content-between cardsdiv">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">STC APP</h4>
+                                    <p class="card-text text-center">An android app that showcases what STC does and also contains resources to boot off in various development domain. The app has special features for STC to manage workflow in STC.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">STC WEBSITE</h4>
+                                    <p class="card-text text-center">A responsive website highlighting the features, domains, events and projects of STC.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">HACK PORTAL</h4>
+                                    <p class="card-text text-center">A software that allows students to find teammates to take part in Various hackathons. It also allows VIT Chapters to post about their hackathons to which students can register.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">RECRUITMENT PORTAL</h4>
+                                    <p class="card-text text-center">This portal is primarily a medium in order to resolve some of the most common problems that are being faced by the recruiters particularly serving the club or the chapter recruitment in a University. We get a choice
+                                        among a numerous number of test conducting portals which are designed to serve the same purpose but none of them is as effective to just have an interface in order to conduct the test and get the results in the
+                                        simplest way possible.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">ROZGAR</h4>
+                                    <p class="card-text text-center">Rozgar is a humble app that aims to bring employment to the poorest of the poor of our country who don't have Whatsapp or LinkedIn to search for jobs. We all know the plight of migrant labourers post-COVID-19. A lot
+                                        of the daily-wage-workers rushed to their homes in villages when the lockdown was instated. Now that these restrictions are being lifted, it's a real challenge for them to find employment. A lot of old businesses
+                                        have been shut down and many others are running at a reduced capacity. Workers can use their simple 2G Feature Phones to register themselves on a nationwide database of workers actively seeking for employment by
+                                        just sending a message. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">SMRITI</h4>
+                                    <p class="card-text text-center">Smriti is a humble app that allows Alzheimer's patients to live happier and fulfilling lives by enabling them to independently carry out tasks that they otherwise struggle with. Using out IOT based special glasses,
+                                        patients can identify who the person standing in front of them is. They can also ask the date and time as well as keep track of their reminders and schedules all in one place. A functionality to book a cab in case
+                                        the patient finds themselves lost has also been given. These features will allow patients to live more dignified and independent lives</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">FFCSonTheGo</h4>
+                                    <p class="card-text text-center">FFCSonTheGo has a lot of potential features that helps the students in the campus to help them in making effective and accurate time tables for the upcoming semesters and prevents them from falling into troubles during
+                                        the credit choice system according to the fully flexible Credit System. To provide a sleek interface with the required number of functionalities that help the students to navigate easier and maintain the same standards
+                                        over the years is one of the primary responsibilities and objectives of FFCSOnTheGo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">AMAZON FAKE REVIEW DECTECTOR</h4>
+                                    <p class="card-text text-center">Amazon Fake Review Detector is a natural language processing-based application that helps user to find reliability of reviews on any particular amazon product by finding the genuine reviews from all the reviews. User
+                                        can input URL of any product in url input section. All the reviews of that particular product are then scrapped by node js backend using request and cheerio libraries and save in a csv file. Machine learning model
+                                        then detects all the fake reviews and mark them as 1. Generally, reviews that have too many spelling or grammar mistakes or reviews that are very short or empty are considered fake by ml model. ML model then sends
+                                        0 or 1 corresponding to each review to node js and then backend calculates prediction percentage of fake reviews and also average confidence or surety of fake of review.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">EDUFUN</h4>
+                                    <p class="card-text text-center">The solution we came up with involves easy and quick matching of tutors and students in just a few seconds through an interactive AI solution. The best way to check the compatibility between the personalities of two
+                                        people is the thought-process or the outlook both of them have on any one particular topic. In the case of teachers and students, this relates to how both of them view a particular course, be it vocational or strictly
+                                        academic. To reduce unnecessary browsing to find the best match, the student can just enter their outlook on a particular course and find the teachers who have the most similar outlook for that course. To further
+                                        enhance the experience, once the student finds a match, they can view the teacher’s best resources that he/she has put up and can also attempt auto-generated tests (automation of test generation further reduces
+                                        the burden and time of the tutors) to get a complete overview of that tutor and assess whether it’s a right match.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">COVIFIGHT</h4>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum eget nulla lacinia congue. Mauris facilisis hendrerit consectetur nulla. Pellentesque fringilla lectus id risus hendrerit, non dapibus
+                                        nulla condimentum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">IMAGE SEGREGATOR MODEL</h4>
+                                    <p class="card-text text-center">An app for traversing through the gallery and segregating the pics of notes from other normal pics. Helpful in studying from mobile phones. Helps in storage management as the notes can be deleted in bulk after they
+                                        are not required anymore rather than deleting them one by one.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">VIT ATTENDANCE TAKER</h4>
+                                    <p class="card-text text-center">An android app to take attendance of VIT students by scanning barcode at the back of VIT ID card.s</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer_stc">
+        <div class="container  ">
+            <div class="row footer_row_one d-flex justify-content-center">
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="col-xs-12">
+
                         <ul>
-                            <li class="p-4"><a href="./index.html#landing_page" style="color: white;">Home</a></li>
-                            <li class="p-4"><a href="./project.html" style="color: white;"> Projects</a></li>
-                            <li class="p-4"><a href="./events.html" style="color: white;">Events</a></li>
+                            <p class="qlink">
+                                <h4>Quick Links</h4>
+                            </p>
+
+                            <li><a href="./index.html#landing_page">Home</a> </li>
+                            <li><a href="./project.html"> Projects</a></li>
+                            <li><a href="./events.html">Events</a> </li>
+                            <li><a href="./index.html#student_partnerships">Student Partnerships</a> </li>
+                            <li><a href="./index.html#about_app">STC App</a> </li>
+
                         </ul>
                     </div>
-                    <div class="col-6 d-flex justify-content-center align-items-center">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+
+                    <p>
                         <ul>
-                            <li class="mb-5" style="margin: -23px 18px 0 0;"><a href="./index.html#student_partnerships"
-                                    style="color: white;overflow: hidden;
+                            <p class="">
+                                <h4 class="d-flex justify-content-center" style="padding-left:1rem;">Get In Touch
+                                </h4>
+                            </p>
+                            <li><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
+                            <li><img src="./svg/email_get in touch.svg" alt=""> Email</li>
+                            <li><img src="./svg/contact.svg" alt=""> Contact</li>
+
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+
+                    <p>
+                        <ul>
+                            <p class="">
+                                <h4 class="d-flex justify-content-center" style="padding: 0 40px 0 0;">Social</h4>
+                            </p>
+                            <li><img src="./svg/insta.svg" alt=""><a href="https://www.instagram.com/mstcvit/">Instagram</a> </li>
+                            <li><img src="./svg/facebook.svg" alt=""><a href="https://www.facebook.com/mstcvit">Facebook</a> </li>
+                            <li><img src="./svg/linkedin.svg" alt=""><a href="https://www.linkedin.com/company/micvitvellore/">Linked In</a> </li>
+                            <li><img src="./svg/medium.svg" alt=""><a href="https://medium.com/student-technical-community-vit-vellore"> Medium</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row footer_row_2 d-flex justify-content-center align-items-center">
+                <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
+
+            </div>
+            <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
+                <p> &copy;2020 <span style="color: #5A5AFF;"> Student Technical Community</span> <br> <span class="text-muted">Designed by STC Design Team</span>
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer_mobile">
+        <div class="container">
+            <div class="row">
+                <p class="h4 d-inline-block m-auto pt-5">Quick Links</p>
+            </div>
+            <div class="row row_link">
+                <div class="col-6 d-flex justify-content-center align-items-center p-3">
+                    <ul>
+                        <li class="p-4"><a href="./index.html#landing_page" style="color: white;">Home</a></li>
+                        <li class="p-4"><a href="./project.html" style="color: white;"> Projects</a></li>
+                        <li class="p-4"><a href="./events.html" style="color: white;">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <ul>
+                        <li class="mb-5" style="margin: -23px 18px 0 0;"><a href="./index.html#student_partnerships" style="color: white;overflow: hidden;
                             white-space: nowrap;">Student Partnerships</a></li>
 
-                            <li class="mb-5"><a href="./index.html#about_app" style="color: white;">STC App</a> </li>
+                        <li class="mb-5"><a href="./index.html#about_app" style="color: white;">STC App</a> </li>
 
-
-
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto">Social</p>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center">
-
-                    <div class="icon1 p-4">
-                        <a href="https://www.instagram.com/mstcvit/"><img src="./svg/insta.svg" alt=""></a>
-                    </div>
-                    <div class="icon2 p-4">
-                        <a href="https://www.facebook.com/mstcvit"><img src="./svg/facebook.svg" alt=""></a>
-                    </div>
-                    <div class="icon3 p-4">
-                        <a href="https://www.linkedin.com/company/micvitvellore/"><img src="./svg/linkedin.svg"
-                                alt=""></a>
-                    </div>
-                    <div class="icon4 p-4">
-                        <a href="https://medium.com/student-technical-community-vit-vellore"><img src="./svg/medium.svg"
-                                alt=""></a>
-                    </div>
-
-
-                </div>
-
-
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto pt-5">Get In Touch</p>
-                </div>
-
-                <div class="row row_get_touch d-flex justify-content-around align-items-center">
-                    <ul>
-                        <li class="p-4"><img src="./svg/email_get in touch.svg" alt=""> Email</li>
-                        <li class="p-4"><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
 
 
                     </ul>
-                    <ul>
-                        <li class="pb-5 mb-4"><img src="./svg/contact.svg" alt=""> Contact</li>
-                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="h4 d-inline-block m-auto">Social</p>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <div class="icon1 p-4">
+                    <a href="https://www.instagram.com/mstcvit/"><img src="./svg/insta.svg" alt=""></a>
+                </div>
+                <div class="icon2 p-4">
+                    <a href="https://www.facebook.com/mstcvit"><img src="./svg/facebook.svg" alt=""></a>
+                </div>
+                <div class="icon3 p-4">
+                    <a href="https://www.linkedin.com/company/micvitvellore/"><img src="./svg/linkedin.svg" alt=""></a>
+                </div>
+                <div class="icon4 p-4">
+                    <a href="https://medium.com/student-technical-community-vit-vellore"><img src="./svg/medium.svg" alt=""></a>
                 </div>
 
-                <div class="row footer_row_2 d-flex justify-content-center align-items-center">
-                    <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
-
-                </div>
-                <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
-                    <p> &copy;2020 <span style="color: #5A5AFF;">Student Technical Community</span> <br> <span
-                            class="text-muted">Designed by STC Design Team</span>
-                    </p>
-
-
-                </div>
 
             </div>
-        </section>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-        </script>
-        <script src="index.js"></script>
-    </body>
+
+
+            <div class="row">
+                <p class="h4 d-inline-block m-auto pt-5">Get In Touch</p>
+            </div>
+
+            <div class="row row_get_touch d-flex justify-content-around align-items-center">
+                <ul>
+                    <li class="p-4" style="white-space: nowrap;"><img src="./svg/email_get in touch.svg" alt=""> Email</li>
+                    <li class="p-4" style="white-space: nowrap;"><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
+
+
+                </ul>
+                <ul>
+                    <li class="pb-5 mb-4" style="white-space: nowrap;"><img src="./svg/contact.svg" alt=""> Contact</li>
+                </ul>
+            </div>
+
+            <div class="row footer_row_2 d-flex justify-content-center align-items-center">
+                <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
+
+            </div>
+            <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
+                <p> &copy;2020 <span style="color: #5A5AFF;">Student Technical Community</span> <br> <span class="text-muted">Designed by STC Design Team</span>
+                </p>
+
+
+            </div>
+
+        </div>
+    </section>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
 
 </html>

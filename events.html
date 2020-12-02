@@ -1,424 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="events.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-            crossorigin="anonymous" />
-        <title>Events</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <title>Events</title>
+</head>
 
-    <body>
-        <section id="project">
-            <div class="container-fluid nav_div">
-                <div class="row justify-content-center">
-                    <div class="col-10">
-                        <nav class="navbar navbar-expand-lg navbar-dark">
-                            <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
-                            <button class="navbar-toggler" type="button" onclick="openNav()">
+<body>
+    <section id="project">
+        <div class="container-fluid nav_div">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
+                        <button class="navbar-toggler" type="button" onclick="openNav()">
                                 <span class="navbar-toggler-icon" role="button"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbaritems">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a href="./index.html" class="nav-link">Home </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#board" class="nav-link">The Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#focus_our" class="nav-link">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./index.html#contact_para" class="nav-link">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div id="SideNav" class="sidenavR">
-                                <a href="javascript:void(0)" class="closebtn text-center"
-                                    onclick="closeNav()">&times;</a>
-                                <a href="./index.html" onclick="closeNav()" class="text-center">Home</a>
-                                <a href="./index.html#board" onclick="closeNav()" class="text-center">The Team</a>
-                                <a href="./index.html#focus_our" onclick="closeNav()" class="text-center">About
-                                    Us</a>
-                                <a href="./index.html#contact_para" onclick="closeNav()" class="text-center">Contact
-                                    Us</a>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <h1 class="projecthead">Events</h1>
-                        <p class="projectpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at
-                            mauris eget mauris pulvinar ornare ut eget dolor. Morbi libero dolor, laoreet a tempus </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="row justify-content-between cardsdiv">
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/docker.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Introduction to Docker</h4>
-                                        <p class="card-text text-center">Docker, an up & coming platform, which helps
-                                            developers develop applications, without thinking about the system specific
-                                            complexities, has become a major success, in the past few years. In this
-                                            intuitive workshop, the
-                                            participants were taught about the basics of Docker, along with hands-on
-                                            coding to introduce them with the world of Docker. It was a major success
-                                            with over 80 participants, the event was also supported by Dominos
-                                            & Subway as a catering partner. It expanded STC’s name as a chapter, which
-                                            is not afraid of expanding its wings into newer domains.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/dsa.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Workshop on Data Structures and
-                                            Algorithms
-                                        </h4>
-                                        <p class="card-text text-center">A data structure is a data organization,
-                                            management, and storage format that enable efficient access and
-                                            modification. Algorithms are a set of rules to be followed in calculations
-                                            or other problem-solving operations.
-                                            DSA forms the foundation for Computer Science. The topics covered in this
-                                            session are stacks, queues, applications of stacks and queues, graphs, trees
-                                            and traversals in them. This was a very successful event by
-                                            STC and also 36 people attended the event.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/competetive.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Getting Started with Competitive
-                                            Coding
-                                        </h4>
-                                        <p class="card-text text-center">Competitive programming involves using
-                                            logic-based thinking to solve a problem from different angles. This involves
-                                            usage of various algorithms to make efficient programs. Hence, the concepts
-                                            taught in this session
-                                            were based on the ones taught in the previous session of Data Structures and
-                                            Algorithms. Recursion and dynamic programming were some of the useful
-                                            techniques taught in this session. This was a very successful event
-                                            by STC and also 30 people attended the event.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/datascience.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Getting Started with Data Science
-                                        </h4>
-                                        <p class="card-text text-center">Data science is an interdisciplinary field that
-                                            uses scientific methods, processes, algorithms and systems to extract
-                                            knowledge and insights from many structural and unstructured data. There
-                                            were various topics such
-                                            as NumPy-pandas, data visualization and machine learning algorithms, which
-                                            were covered during the session. These topics build the foundation of Data
-                                            Science for the beginners. The session was quite interactive
-                                            as many doubts were clarified and ideas were shared. This was a very
-                                            successful event by STC and also 30 people attended the event.</p>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/codeasylums.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Guidance to DSA-Preparation for
-                                            Coding Interview by Code Asylums</h4>
-                                        <p class="card-text text-center">>Data Structure is a way of collecting and
-                                            organizing data in such a way that we can perform operations on these data
-                                            in an effective way. The webinar was conducted on 27th June 2020 on the
-                                            topic “Guidance to DSA” in
-                                            collaboration with Code asylums which features various of Topics such as the
-                                            key concepts about data structure and algorithms. It also covers various
-                                            tips and tricks on how to crack interview in top tech companies.
-                                            This was a very successful event by MSTC in which more than 750 impressions
-                                            were recorded during the live webinar that was made available through Code
-                                            Asylum's twitter handle.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/codingblock.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Data Structures-Hash Maps by Coding
-                                            Blocks
-                                        </h4>
-                                        <p class="card-text text-center">Hash Maps are a vital and significant component
-                                            of Data Structures as they offer the ability to link data together. In
-                                            accordance of reiterating its utmost importance a Webinar was organized in
-                                            collaboration with Coding
-                                            Blocks on the 1st of July 2020. The Webinar, hosted by an experienced coder,
-                                            covered all the quintessential topics of Hash Maps right from their
-                                            description to its implementation. The Webinar was hugely successful,
-                                            with more than 1500 views and a lot of positive feedback, hence adding
-                                            another feather to MSTC's cap. For Further references, the webinar is
-                                            available on the Coding Blocks YouTube Channel.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/gfg.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Placement Preparation Workshop by
-                                            GeeksforGeeks
-                                        </h4>
-                                        <p class="card-text text-center">A workshop on ‘Placement Preparation’ was
-                                            conducted in collaboration with Geek for Geeks on 6th July,2020. The speaker
-                                            covered many commonly asked topics and also provided some helpful tips to
-                                            crack various interviews
-                                            of top tech companies. This was another very successful event conducted by
-                                            MSTC and was attended by more than 300 participants. The webinar is
-                                            available on the official YouTube page of Geek for Geeks.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/heap.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Data Structures-Heap by Coding
-                                            Blocks
-                                        </h4>
-                                        <p class="card-text text-center">Tech giants like Microsoft, Google and Apple
-                                            hunt for candidates who can apply the right set of tools to solve a given
-                                            problem efficiently. Data structures is one such critical tool that will
-                                            help candidates crack interviews.
-                                            Coding Blocks in Collaboration with STC-VIT conducted this event, where the
-                                            concept & application of Heaps was taught. It currently has over 5k views.
-                                            Conducted by Ms.Sanjeet Bora, Instructor & Academic Advisor
-                                            at Coding Blocks.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/snap_lens.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">Getting Started with Snapchat Lenses
-                                        </h4>
-                                        <p class="card-text text-center">The Tech-event helped young minds build their
-                                            own snapchat lenses & take the first step towards their Augmented Reality
-                                            Journey, the students were familiarized with the concepts after which they
-                                            got to build & use their
-                                            own snapchat lenses. These lenses could further be published! This event was
-                                            done under the Guidance of one of MSTC’s seniors Shrey Sindher.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                                <div class="card text-center">
-                                    <img class="card-img-top img-fluid" src="./images/events/craft404.png"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center cardhead">CRAFT 404</h4>
-                                        <p class="card-text text-center">Craft 404 was a unique design and web
-                                            development workshop that features the various aspects of Web Development
-                                            all upskilled from scratch. The event mainly focussed on various aspects of
-                                            Web development and design
-                                            featuring UI/UX, HTML, CSS, JavaScript and many more. The event was truly a
-                                            major Head start for Web Designers and Developers as it provided the most
-                                            ideal platform for them to Research, Ideate and indeed Unshackle
-                                            their potentials. This 2-day extravaganza was a complete conglomeration of
-                                            leading industry speakers, mentors, tutors and tech supports all
-                                            collaborated in a single environment making it a unique experience for
-                                            the tech enthusiasts.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="footer_stc">
-            <div class="container  ">
-                <div class="row footer_row_one d-flex justify-content-center">
-
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="col-xs-12">
-
-                            <ul>
-                                <p class="qlink">
-                                    <h4>Quick Links</h4>
-                                </p>
-
-                                <li><a href="./index.html#landing_page">Home</a> </li>
-                                <li><a href="./project.html"> Projects</a></li>
-                                <li><a href="./events.html">Events</a> </li>
-                                <li><a href="./index.html#student_partnerships">Student Partnerships</a> </li>
-                                <li><a href="./index.html#about_app">STC App</a> </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-
-                        <p>
-                            <ul>
-                                <p class="">
-                                    <h4 class="d-flex justify-content-center" style="padding-left:1rem;">Get In Touch
-                                    </h4>
-                                </p>
-                                <li><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
-                                <li><img src="./svg/email_get in touch.svg" alt=""> Email</li>
-                                <li><img src="./svg/contact.svg" alt=""> Contact</li>
-
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-
-                        <p>
-                            <ul>
-                                <p class="">
-                                    <h4 class="d-flex justify-content-center" style="padding: 0 40px 0 0;">Social</h4>
-                                </p>
-                                <li><img src="./svg/insta.svg" alt=""><a
-                                        href="https://www.instagram.com/mstcvit/">Instagram</a> </li>
-                                <li><img src="./svg/facebook.svg" alt=""><a
-                                        href="https://www.facebook.com/mstcvit">Facebook</a> </li>
-                                <li><img src="./svg/linkedin.svg" alt=""><a
-                                        href="https://www.linkedin.com/company/micvitvellore/">Linked In</a> </li>
-                                <li><img src="./svg/medium.svg" alt=""><a
-                                        href="https://medium.com/student-technical-community-vit-vellore"> Medium</a>
+                        <div class="collapse navbar-collapse" id="navbaritems">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#board" class="nav-link">The Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#focus_our" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html#contact_para" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="row footer_row_2 d-flex justify-content-center align-items-center">
-                    <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
-
-                </div>
-                <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
-                    <p> &copy;2020 <span style="color: #5A5AFF;"> Student Technical Community</span> <br> <span
-                            class="text-muted">Designed by STC Design Team</span>
-                    </p>
-
-
+                        </div>
+                        <div id="SideNav" class="sidenavR">
+                            <a href="javascript:void(0)" class="closebtn text-center" onclick="closeNav()">&times;</a>
+                            <a href="./index.html" onclick="closeNav()" class="text-center">Home</a>
+                            <a href="./index.html#board" onclick="closeNav()" class="text-center">The Team</a>
+                            <a href="./index.html#focus_our" onclick="closeNav()" class="text-center">About
+                                    Us</a>
+                            <a href="./index.html#contact_para" onclick="closeNav()" class="text-center">Contact
+                                    Us</a>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </section>
 
-
-        <section id="footer_mobile">
-            <div class="container">
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto pt-5">Quick Links</p>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h1 class="projecthead">Events</h1>
+                    <p class="projectpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at mauris eget mauris pulvinar ornare ut eget dolor. Morbi libero dolor, laoreet a tempus </p>
                 </div>
-                <div class="row row_link">
-                    <div class="col-6 d-flex justify-content-center align-items-center p-3">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row justify-content-between cardsdiv">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/docker.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Introduction to Docker</h4>
+                                    <p class="card-text text-center">Docker, an up & coming platform, which helps developers develop applications, without thinking about the system specific complexities, has become a major success, in the past few years. In this intuitive workshop, the
+                                        participants were taught about the basics of Docker, along with hands-on coding to introduce them with the world of Docker. It was a major success with over 80 participants, the event was also supported by Dominos
+                                        & Subway as a catering partner. It expanded STC’s name as a chapter, which is not afraid of expanding its wings into newer domains.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/dsa.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Workshop on Data Structures and Algorithms
+                                    </h4>
+                                    <p class="card-text text-center">A data structure is a data organization, management, and storage format that enable efficient access and modification. Algorithms are a set of rules to be followed in calculations or other problem-solving operations.
+                                        DSA forms the foundation for Computer Science. The topics covered in this session are stacks, queues, applications of stacks and queues, graphs, trees and traversals in them. This was a very successful event by
+                                        STC and also 36 people attended the event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/competetive.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Getting Started with Competitive Coding
+                                    </h4>
+                                    <p class="card-text text-center">Competitive programming involves using logic-based thinking to solve a problem from different angles. This involves usage of various algorithms to make efficient programs. Hence, the concepts taught in this session
+                                        were based on the ones taught in the previous session of Data Structures and Algorithms. Recursion and dynamic programming were some of the useful techniques taught in this session. This was a very successful event
+                                        by STC and also 30 people attended the event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/datascience.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Getting Started with Data Science
+                                    </h4>
+                                    <p class="card-text text-center">Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data. There were various topics such
+                                        as NumPy-pandas, data visualization and machine learning algorithms, which were covered during the session. These topics build the foundation of Data Science for the beginners. The session was quite interactive
+                                        as many doubts were clarified and ideas were shared. This was a very successful event by STC and also 30 people attended the event.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/codeasylums.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Guidance to DSA-Preparation for Coding Interview by Code Asylums</h4>
+                                    <p class="card-text text-center">>Data Structure is a way of collecting and organizing data in such a way that we can perform operations on these data in an effective way. The webinar was conducted on 27th June 2020 on the topic “Guidance to DSA” in
+                                        collaboration with Code asylums which features various of Topics such as the key concepts about data structure and algorithms. It also covers various tips and tricks on how to crack interview in top tech companies.
+                                        This was a very successful event by MSTC in which more than 750 impressions were recorded during the live webinar that was made available through Code Asylum's twitter handle.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/codingblock.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Data Structures-Hash Maps by Coding Blocks
+                                    </h4>
+                                    <p class="card-text text-center">Hash Maps are a vital and significant component of Data Structures as they offer the ability to link data together. In accordance of reiterating its utmost importance a Webinar was organized in collaboration with Coding
+                                        Blocks on the 1st of July 2020. The Webinar, hosted by an experienced coder, covered all the quintessential topics of Hash Maps right from their description to its implementation. The Webinar was hugely successful,
+                                        with more than 1500 views and a lot of positive feedback, hence adding another feather to MSTC's cap. For Further references, the webinar is available on the Coding Blocks YouTube Channel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/gfg.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Placement Preparation Workshop by GeeksforGeeks
+                                    </h4>
+                                    <p class="card-text text-center">A workshop on ‘Placement Preparation’ was conducted in collaboration with Geek for Geeks on 6th July,2020. The speaker covered many commonly asked topics and also provided some helpful tips to crack various interviews
+                                        of top tech companies. This was another very successful event conducted by MSTC and was attended by more than 300 participants. The webinar is available on the official YouTube page of Geek for Geeks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/heap.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Data Structures-Heap by Coding Blocks
+                                    </h4>
+                                    <p class="card-text text-center">Tech giants like Microsoft, Google and Apple hunt for candidates who can apply the right set of tools to solve a given problem efficiently. Data structures is one such critical tool that will help candidates crack interviews.
+                                        Coding Blocks in Collaboration with STC-VIT conducted this event, where the concept & application of Heaps was taught. It currently has over 5k views. Conducted by Ms.Sanjeet Bora, Instructor & Academic Advisor
+                                        at Coding Blocks.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/snap_lens.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">Getting Started with Snapchat Lenses
+                                    </h4>
+                                    <p class="card-text text-center">The Tech-event helped young minds build their own snapchat lenses & take the first step towards their Augmented Reality Journey, the students were familiarized with the concepts after which they got to build & use their
+                                        own snapchat lenses. These lenses could further be published! This event was done under the Guidance of one of MSTC’s seniors Shrey Sindher.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
+                            <div class="card text-center">
+                                <img class="card-img-top img-fluid" src="./images/events/craft404.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">CRAFT 404</h4>
+                                    <p class="card-text text-center">Craft 404 was a unique design and web development workshop that features the various aspects of Web Development all upskilled from scratch. The event mainly focussed on various aspects of Web development and design
+                                        featuring UI/UX, HTML, CSS, JavaScript and many more. The event was truly a major Head start for Web Designers and Developers as it provided the most ideal platform for them to Research, Ideate and indeed Unshackle
+                                        their potentials. This 2-day extravaganza was a complete conglomeration of leading industry speakers, mentors, tutors and tech supports all collaborated in a single environment making it a unique experience for
+                                        the tech enthusiasts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer_stc">
+        <div class="container  ">
+            <div class="row footer_row_one d-flex justify-content-center">
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="col-xs-12">
+
                         <ul>
-                            <li class="p-4"><a href="./index.html#landing_page" style="color: white;">Home</a></li>
-                            <li class="p-4"><a href="./project.html" style="color: white;"> Projects</a></li>
-                            <li class="p-4"><a href="./events.html" style="color: white;">Events</a></li>
+                            <p class="qlink">
+                                <h4>Quick Links</h4>
+                            </p>
+
+                            <li><a href="./index.html#landing_page">Home</a> </li>
+                            <li><a href="./project.html"> Projects</a></li>
+                            <li><a href="./events.html">Events</a> </li>
+                            <li><a href="./index.html#student_partnerships">Student Partnerships</a> </li>
+                            <li><a href="./index.html#about_app">STC App</a> </li>
+
                         </ul>
                     </div>
-                    <div class="col-6 d-flex justify-content-center align-items-center">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+
+                    <p>
                         <ul>
-                            <li class="mb-5" style="margin: -23px 18px 0 0;"><a href="./index.html#student_partnerships"
-                                    style="color: white;overflow: hidden;
+                            <p class="">
+                                <h4 class="d-flex justify-content-center" style="padding-left:1rem;">Get In Touch
+                                </h4>
+                            </p>
+                            <li><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
+                            <li><img src="./svg/email_get in touch.svg" alt=""> Email</li>
+                            <li><img src="./svg/contact.svg" alt=""> Contact</li>
+
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+
+                    <p>
+                        <ul>
+                            <p class="">
+                                <h4 class="d-flex justify-content-center" style="padding: 0 40px 0 0;">Social</h4>
+                            </p>
+                            <li><img src="./svg/insta.svg" alt=""><a href="https://www.instagram.com/mstcvit/">Instagram</a> </li>
+                            <li><img src="./svg/facebook.svg" alt=""><a href="https://www.facebook.com/mstcvit">Facebook</a> </li>
+                            <li><img src="./svg/linkedin.svg" alt=""><a href="https://www.linkedin.com/company/micvitvellore/">Linked In</a> </li>
+                            <li><img src="./svg/medium.svg" alt=""><a href="https://medium.com/student-technical-community-vit-vellore"> Medium</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row footer_row_2 d-flex justify-content-center align-items-center">
+                <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
+
+            </div>
+            <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
+                <p> &copy;2020 <span style="color: #5A5AFF;"> Student Technical Community</span> <br> <span class="text-muted">Designed by STC Design Team</span>
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer_mobile">
+        <div class="container">
+            <div class="row">
+                <p class="h4 d-inline-block m-auto pt-5">Quick Links</p>
+            </div>
+            <div class="row row_link">
+                <div class="col-6 d-flex justify-content-center align-items-center p-3">
+                    <ul>
+                        <li class="p-4"><a href="./index.html#landing_page" style="color: white;">Home</a></li>
+                        <li class="p-4"><a href="./project.html" style="color: white;"> Projects</a></li>
+                        <li class="p-4"><a href="./events.html" style="color: white;">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <ul>
+                        <li class="mb-5" style="margin: -23px 18px 0 0;"><a href="./index.html#student_partnerships" style="color: white;overflow: hidden;
                             white-space: nowrap;">Student Partnerships</a></li>
 
-                            <li class="mb-5"><a href="./index.html#about_app" style="color: white;">STC App</a> </li>
+                        <li class="mb-5"><a href="./index.html#about_app" style="color: white;">STC App</a> </li>
 
-
-
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto">Social</p>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center">
-
-                    <div class="icon1 p-4">
-                        <a href="https://www.instagram.com/mstcvit/"><img src="./svg/insta.svg" alt=""></a>
-                    </div>
-                    <div class="icon2 p-4">
-                        <a href="https://www.facebook.com/mstcvit"><img src="./svg/facebook.svg" alt=""></a>
-                    </div>
-                    <div class="icon3 p-4">
-                        <a href="https://www.linkedin.com/company/micvitvellore/"><img src="./svg/linkedin.svg"
-                                alt=""></a>
-                    </div>
-                    <div class="icon4 p-4">
-                        <a href="https://medium.com/student-technical-community-vit-vellore"><img src="./svg/medium.svg"
-                                alt=""></a>
-                    </div>
-
-
-                </div>
-
-
-                <div class="row">
-                    <p class="h4 d-inline-block m-auto pt-5">Get In Touch</p>
-                </div>
-
-                <div class="row row_get_touch d-flex justify-content-around align-items-center">
-                    <ul>
-                        <li class="p-4"><img src="./svg/email_get in touch.svg" alt=""> Email</li>
-                        <li class="p-4"><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
 
 
                     </ul>
-                    <ul>
-                        <li class="pb-5 mb-4"><img src="./svg/contact.svg" alt=""> Contact</li>
-                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="h4 d-inline-block m-auto">Social</p>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <div class="icon1 p-4">
+                    <a href="https://www.instagram.com/mstcvit/"><img src="./svg/insta.svg" alt=""></a>
+                </div>
+                <div class="icon2 p-4">
+                    <a href="https://www.facebook.com/mstcvit"><img src="./svg/facebook.svg" alt=""></a>
+                </div>
+                <div class="icon3 p-4">
+                    <a href="https://www.linkedin.com/company/micvitvellore/"><img src="./svg/linkedin.svg" alt=""></a>
+                </div>
+                <div class="icon4 p-4">
+                    <a href="https://medium.com/student-technical-community-vit-vellore"><img src="./svg/medium.svg" alt=""></a>
                 </div>
 
-                <div class="row footer_row_2 d-flex justify-content-center align-items-center">
-                    <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
-
-                </div>
-                <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
-                    <p> &copy;2020 <span style="color: #5A5AFF;">Student Technical Community</span> <br> <span
-                            class="text-muted">Designed by STC Design Team</span>
-                    </p>
-
-
-                </div>
 
             </div>
-        </section>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-        </script>
-        <script src="index.js"></script>
-    </body>
+
+            <div class="row">
+                <p class="h4 d-inline-block m-auto pt-5">Get In Touch</p>
+            </div>
+
+            <div class="row row_get_touch d-flex justify-content-around align-items-center">
+                <ul>
+                    <li class="p-4" style="white-space: nowrap;"><img src="./svg/email_get in touch.svg" alt=""> Email</li>
+                    <li class="p-4" style="white-space: nowrap;"><img src="./svg/location.svg" alt=""> VIT, Vellore</li>
+
+
+                </ul>
+                <ul>
+                    <li class="pb-5 mb-4" style="white-space: nowrap;"><img src="./svg/contact.svg" alt="">Contact</li>
+                </ul>
+            </div>
+
+            <div class="row footer_row_2 d-flex justify-content-center align-items-center">
+                <img src="./svg/stc-white 2.png" alt="" class="img-fluid">
+
+            </div>
+            <div class="row footer_row_3 d-flex justify-content-center align-items-center text-center">
+                <p> &copy;2020 <span style="color: #5A5AFF;">Student Technical Community</span> <br> <span class="text-muted">Designed by STC Design Team</span>
+                </p>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
 
 </html>
