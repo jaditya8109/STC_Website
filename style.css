@@ -432,7 +432,7 @@ html {
 }
 
 .b_pics span.lead {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto',sans-serif;
     margin-top: -3px;
     margin-bottom: 15vmin;
     font-size: 16px;
@@ -447,13 +447,12 @@ html {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 470px) {
-    .nish {
-        margin-top: 23px;
-    }
-}
+
 
 @media only screen and (max-width: 600px) {
+    .b_pics .row{
+        font-family: 'Roboto',sans-serif;
+    }
     .b_pics .row p {
         margin-top: 0.5px;
         font-size: 1rem;
