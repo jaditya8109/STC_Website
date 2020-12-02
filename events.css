@@ -91,9 +91,10 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    /* #slider {
-        display: none;
-    } */
+    html,
+    body {
+        overflow-x: hidden;
+    }
     .footer_stc {
         display: none;
     }

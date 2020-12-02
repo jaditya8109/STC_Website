@@ -95,13 +95,15 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    /* #slider {
-        display: none;
-    } */
+    html,
+    body {
+        overflow-x: hidden;
+    }
     .footer_stc {
         display: none;
     }
     #footer_mobile {
+        overflow-x: hidden;
         display: block;
         background-color: black;
         font-family: 'Raleway', sans-serif;
