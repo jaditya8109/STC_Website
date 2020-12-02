@@ -1,6 +1,9 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
 #navbaritems a {
     font-size: 1.15em;
     color: white;
@@ -10,39 +13,43 @@ body{
 .nav_div {
     padding-top: 1vh;
 }
-#project{
+
+#project {
     background-color: #202743;
     background-image: url("svg/waves.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-.projecthead{
+
+.projecthead {
     color: white;
     margin-top: 10vh;
     font-size: 6em;
     font-weight: 475;
 }
-.projectpara{
+
+.projectpara {
     color: white;
-    margin-top: 3vh;  
+    margin-top: 3vh;
     font-weight: 375;
     font-size: 1.1em;
     margin-bottom: 20vh;
 }
-.cardsdiv{
+
+.cardsdiv {
     margin-bottom: 15vh;
 }
-.cardhead{
+
+.cardhead {
     /* font-size: 1.1em; */
 }
 
-.card{
+.card {
     margin-bottom: 15vh;
     max-width: 85%;
     border-radius: 20px !important;
 }
 
-/* footer */
 
 /* footer */
 
@@ -102,34 +109,35 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    .secondrow{
+    .secondrow {
         margin-top: 0vh;
         margin-bottom: 0vh;
     }
-    .card{
+    .card {
         max-width: 100%;
         margin-bottom: 10vh;
         margin-left: 5vw;
         margin-right: 5vw;
     }
-    .projecthead{
+    .projecthead {
         margin-top: 10vh;
         text-align: center;
     }
-    .projectpara{
+    .projectpara {
         margin-top: 5vh;
         margin-bottom: 15vh;
         text-align: center;
     }
-    #project{
+    #project {
         background-color: #202743;
         background-image: url("");
     }
 }
 
+
 /* nav */
 
-#SideNav{
+#SideNav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -161,24 +169,23 @@ body{
     right: 25px; */
     font-size: 36px;
     /* margin-left: 50px; */
-  }
+}
 
-@media(max-width:767px){
-    .navbar-dark .navbar-nav{
+@media(max-width:767px) {
+    .navbar-dark .navbar-nav {
         display: none;
     }
-    
     #SideNav {
         padding-top: 15px;
     }
-
     #SideNav a {
         font-size: 18px;
     }
-    .mobilehome{
+    .mobilehome {
         margin-top: 10vh;
     }
 }
+
 
 /* @media only screen and (max-width: 991px){
     .card{
