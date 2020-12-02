@@ -191,6 +191,10 @@ body {
     height: auto;
 }
 
+.cardsdiv .card {
+    box-shadow: rgba(255, 255, 255, 0.28) -2px -2px 25px, rgba(255, 255, 255, 0.28) 2px 2px 20px;
+}
+
 
 /* @media only screen and (max-width: 991px){
     .card{
