@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Projects</title>
 </head>
 
@@ -15,21 +16,29 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <nav class="navbar navbar-expand-sm navbar-dark">
-                        <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
+                        <div data-aos="fade-right" data-aos-duration="2500">
+                            <a href="#" class="navbar-brand"><img src="svg/stc 2.svg" alt="STC logo"></a>
+                        </div>
                         <button class="navbar-toggler" type="button" onclick="openNav()">
                                 <span class="navbar-toggler-icon" role="button"></span>
                             </button>
                         <div class="collapse navbar-collapse" id="navbaritems">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">Home </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#focus_our" class="nav-link">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact_para" class="nav-link">Contact Us</a>
-                                </li>
+                                <div data-aos="flip-up" data-aos-duration="2500">
+                                    <li class="nav-item">
+                                        <a href="./index.html" class="nav-link">Home </a>
+                                    </li>
+                                </div>
+                                <div data-aos="flip-up" data-aos-duration="2500">
+                                    <li class="nav-item">
+                                        <a href="#focus_our" class="nav-link">About Us</a>
+                                    </li>
+                                </div>
+                                <div data-aos="flip-up" data-aos-duration="2500">
+                                    <li class="nav-item">
+                                        <a href="#contact_para" class="nav-link">Contact Us</a>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                         <div id="SideNav" class="sidenavR">
@@ -46,130 +55,160 @@
 
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <h1 class="projecthead">Projects</h1>
-                <p class="projectpara">At STC, we believe in showcasing the various disciplines of technology that we specialise in, via unique and solution-driven Projects. These Projects comprise of various technologies and domains right from design to tech to management.
-                    They are a testament to the various endeavours our community takes to enhance its members' skills as well as solve formidable problems.
-                </p>
+                <div data-aos="flip-right" data-aos-duration="2000">
+                    <h1 class="projecthead">Projects</h1>
+                </div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                    <p class="projectpara">At STC, we believe in showcasing the various disciplines of technology that we specialise in, via unique and solution-driven Projects. These Projects comprise of various technologies and domains right from design to tech to management.
+                        They are a testament to the various endeavours our community takes to enhance its members' skills as well as solve formidable problems.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="row justify-content-between cardsdiv">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">STC APP</h4>
-                                <p class="card-text text-center">An android app that showcases what STC does and also contains resources to boot off in various development domain. The app has special features for STC to manage workflow in STC.</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">STC APP</h4>
+                                    <p class="card-text text-center">An android app that showcases what STC does and also contains resources to boot off in various development domain. The app has special features for STC to manage workflow in STC.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">STC WEBSITE</h4>
-                                <p class="card-text text-center">A responsive website highlighting the features, domains, events and projects of STC.</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">STC WEBSITE</h4>
+                                    <p class="card-text text-center">A responsive website highlighting the features, domains, events and projects of STC.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">HACK PORTAL</h4>
-                                <p class="card-text text-center">A software that allows students to find teammates to take part in Various hackathons. It also allows VIT Chapters to post about their hackathons to which students can register.</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">HACK PORTAL</h4>
+                                    <p class="card-text text-center">A software that allows students to find teammates to take part in Various hackathons. It also allows VIT Chapters to post about their hackathons to which students can register.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">RECRUITMENT PORTAL</h4>
-                                <p class="card-text text-center">This portal is primarily a medium in order to resolve some of the most common problems that are being faced by the recruiters particularly serving the club or the chapter recruitment in a University. We get a choice among
-                                    a numerous number of test conducting portals which are designed to serve the same purpose but none of them is as effective to just have an interface in order to conduct the test and get the results in the simplest way
-                                    possible.
-                                </p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">RECRUITMENT PORTAL</h4>
+                                    <p class="card-text text-center">This portal is primarily a medium in order to resolve some of the most common problems that are being faced by the recruiters particularly serving the club or the chapter recruitment in a University. We get a choice
+                                        among a numerous number of test conducting portals which are designed to serve the same purpose but none of them is as effective to just have an interface in order to conduct the test and get the results in the
+                                        simplest way possible.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">ROZGAR</h4>
-                                <p class="card-text text-center">Rozgar is a humble app that aims to bring employment to the poorest of the poor of our country who don't have Whatsapp or LinkedIn to search for jobs. We all know the plight of migrant labourers post-COVID-19. A lot of
-                                    the daily-wage-workers rushed to their homes in villages when the lockdown was instated. Now that these restrictions are being lifted, it's a real challenge for them to find employment. A lot of old businesses have
-                                    been shut down and many others are running at a reduced capacity. Workers can use their simple 2G Feature Phones to register themselves on a nationwide database of workers actively seeking for employment by just sending
-                                    a message. </p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">ROZGAR</h4>
+                                    <p class="card-text text-center">Rozgar is a humble app that aims to bring employment to the poorest of the poor of our country who don't have Whatsapp or LinkedIn to search for jobs. We all know the plight of migrant labourers post-COVID-19. A lot
+                                        of the daily-wage-workers rushed to their homes in villages when the lockdown was instated. Now that these restrictions are being lifted, it's a real challenge for them to find employment. A lot of old businesses
+                                        have been shut down and many others are running at a reduced capacity. Workers can use their simple 2G Feature Phones to register themselves on a nationwide database of workers actively seeking for employment by
+                                        just sending a message. </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">SMRITI</h4>
-                                <p class="card-text text-center">Smriti is a humble app that allows Alzheimer's patients to live happier and fulfilling lives by enabling them to independently carry out tasks that they otherwise struggle with. Using out IOT based special glasses, patients
-                                    can identify who the person standing in front of them is. They can also ask the date and time as well as keep track of their reminders and schedules all in one place. A functionality to book a cab in case the patient
-                                    finds themselves lost has also been given. These features will allow patients to live more dignified and independent lives</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">SMRITI</h4>
+                                    <p class="card-text text-center">Smriti is a humble app that allows Alzheimer's patients to live happier and fulfilling lives by enabling them to independently carry out tasks that they otherwise struggle with. Using out IOT based special glasses,
+                                        patients can identify who the person standing in front of them is. They can also ask the date and time as well as keep track of their reminders and schedules all in one place. A functionality to book a cab in case
+                                        the patient finds themselves lost has also been given. These features will allow patients to live more dignified and independent lives</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">FFCSonTheGo</h4>
-                                <p class="card-text text-center">FFCSonTheGo has a lot of potential features that helps the students in the campus to help them in making effective and accurate time tables for the upcoming semesters and prevents them from falling into troubles during
-                                    the credit choice system according to the fully flexible Credit System. To provide a sleek interface with the required number of functionalities that help the students to navigate easier and maintain the same standards
-                                    over the years is one of the primary responsibilities and objectives of FFCSOnTheGo.
-                                </p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">FFCSonTheGo</h4>
+                                    <p class="card-text text-center">FFCSonTheGo has a lot of potential features that helps the students in the campus to help them in making effective and accurate time tables for the upcoming semesters and prevents them from falling into troubles during
+                                        the credit choice system according to the fully flexible Credit System. To provide a sleek interface with the required number of functionalities that help the students to navigate easier and maintain the same standards
+                                        over the years is one of the primary responsibilities and objectives of FFCSOnTheGo.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">AMAZON FAKE REVIEW DECTECTOR</h4>
-                                <p class="card-text text-center">Amazon Fake Review Detector is a natural language processing-based application that helps user to find reliability of reviews on any particular amazon product by finding the genuine reviews from all the reviews. User can
-                                    input URL of any product in url input section. All the reviews of that particular product are then scrapped by node js backend using request and cheerio libraries and save in a csv file. Machine learning model then
-                                    detects all the fake reviews and mark them as 1. Generally, reviews that have too many spelling or grammar mistakes or reviews that are very short or empty are considered fake by ml model. ML model then sends 0 or 1
-                                    corresponding to each review to node js and then backend calculates prediction percentage of fake reviews and also average confidence or surety of fake of review.</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">AMAZON FAKE REVIEW DECTECTOR</h4>
+                                    <p class="card-text text-center">Amazon Fake Review Detector is a natural language processing-based application that helps user to find reliability of reviews on any particular amazon product by finding the genuine reviews from all the reviews. User
+                                        can input URL of any product in url input section. All the reviews of that particular product are then scrapped by node js backend using request and cheerio libraries and save in a csv file. Machine learning model
+                                        then detects all the fake reviews and mark them as 1. Generally, reviews that have too many spelling or grammar mistakes or reviews that are very short or empty are considered fake by ml model. ML model then sends
+                                        0 or 1 corresponding to each review to node js and then backend calculates prediction percentage of fake reviews and also average confidence or surety of fake of review.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">EDUFUN</h4>
-                                <p class="card-text text-center">The solution we came up with involves easy and quick matching of tutors and students in just a few seconds through an interactive AI solution. The best way to check the compatibility between the personalities of two people
-                                    is the thought-process or the outlook both of them have on any one particular topic. In the case of teachers and students, this relates to how both of them view a particular course, be it vocational or strictly academic.
-                                    To reduce unnecessary browsing to find the best match, the student can just enter their outlook on a particular course and find the teachers who have the most similar outlook for that course. To further enhance the
-                                    experience, once the student finds a match, they can view the teacher’s best resources that he/she has put up and can also attempt auto-generated tests (automation of test generation further reduces the burden and time
-                                    of the tutors) to get a complete overview of that tutor and assess whether it’s a right match.</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">EDUFUN</h4>
+                                    <p class="card-text text-center">The solution we came up with involves easy and quick matching of tutors and students in just a few seconds through an interactive AI solution. The best way to check the compatibility between the personalities of two
+                                        people is the thought-process or the outlook both of them have on any one particular topic. In the case of teachers and students, this relates to how both of them view a particular course, be it vocational or strictly
+                                        academic. To reduce unnecessary browsing to find the best match, the student can just enter their outlook on a particular course and find the teachers who have the most similar outlook for that course. To further
+                                        enhance the experience, once the student finds a match, they can view the teacher’s best resources that he/she has put up and can also attempt auto-generated tests (automation of test generation further reduces
+                                        the burden and time of the tutors) to get a complete overview of that tutor and assess whether it’s a right match.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">COVIFIGHT</h4>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum eget nulla lacinia congue. Mauris facilisis hendrerit consectetur nulla. Pellentesque fringilla lectus id risus hendrerit, non dapibus nulla
-                                    condimentum.
-                                </p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">COVIFIGHT</h4>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum eget nulla lacinia congue. Mauris facilisis hendrerit consectetur nulla. Pellentesque fringilla lectus id risus hendrerit, non dapibus
+                                        nulla condimentum.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">IMAGE SEGREGATOR MODEL</h4>
-                                <p class="card-text text-center">An app for traversing through the gallery and segregating the pics of notes from other normal pics. Helpful in studying from mobile phones. Helps in storage management as the notes can be deleted in bulk after they are
-                                    not required anymore rather than deleting them one by one.
-                                </p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">IMAGE SEGREGATOR MODEL</h4>
+                                    <p class="card-text text-center">An app for traversing through the gallery and segregating the pics of notes from other normal pics. Helpful in studying from mobile phones. Helps in storage management as the notes can be deleted in bulk after they
+                                        are not required anymore rather than deleting them one by one.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h4 class="card-title text-center cardhead">VIT ATTENDANCE TAKER</h4>
-                                <p class="card-text text-center">An android app to take attendance of VIT students by scanning barcode at the back of VIT ID card.s</p>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center cardhead">VIT ATTENDANCE TAKER</h4>
+                                    <p class="card-text text-center">An android app to take attendance of VIT students by scanning barcode at the back of VIT ID card.s</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -329,6 +368,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
