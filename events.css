@@ -2,6 +2,7 @@
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 #navbaritems a {
@@ -29,6 +30,7 @@ body {
 }
 
 .projectpara {
+    font-family: 'Roboto', sans-serif;
     color: white;
     margin-top: 3vh;
     font-weight: 375;
@@ -193,6 +195,11 @@ body {
 
 .cardsdiv .card {
     box-shadow: rgba(255, 255, 255, 0.28) -2px -2px 25px, rgba(255, 255, 255, 0.28) 2px 2px 20px;
+}
+
+.cardsdiv .card-body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
