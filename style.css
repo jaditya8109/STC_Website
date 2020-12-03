@@ -25,34 +25,6 @@ html {
     margin-top: 0px;
     overflow-x: hidden;
   }
-  #landingpage_first img {
-    position: absolute;
-    top: -5rem !important;
-    left: 10rem !important;
-  }
-}
-
-@media (max-width: 620px) {
-  #landingpage_first img {
-    position: absolute;
-    top: -5rem !important;
-    left: 5rem !important;
-  }
-}
-@media (max-width: 480px) {
-  #landingpage_first img {
-    position: absolute;
-    top: -5rem !important;
-    left: 0rem !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  #landingpage_first img {
-    position: absolute;
-    top: -5rem !important;
-    left: 1rem !important;
-  }
 }
 
 /* landin page css */
