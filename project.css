@@ -51,11 +51,15 @@ body {
 }
 
 .card {
-    margin-bottom: 15vh;
+    /* margin-bottom: 15vh; */
+    height: 100%;
     max-width: 85%;
     border-radius: 20px !important;
 }
 
+.myclass{
+    margin-bottom: 15vh;
+}
 
 /* footer */
 

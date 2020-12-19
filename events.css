@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+.card-img-top{
+    border-top-left-radius: calc(1.25rem - 1px) !important;
+    border-top-right-radius: calc(1.25rem - 1px) !important;
+    border-bottom-left-radius: calc(1.25rem - 1px) !important;
+    border-bottom-right-radius: calc(1.25rem - 1px) !important;
+}
 
 #navbaritems a {
     font-size: 1.15em;
@@ -47,9 +53,14 @@ body {
 }
 
 .card {
-    margin-bottom: 15vh;
+    /* margin-bottom: 15vh; */
     max-width: 85%;
     border-radius: 20px !important;
+    height: 100% !important;
+}
+
+.myclass{
+    margin-bottom: 15vh;
 }
 
 
