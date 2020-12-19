@@ -130,8 +130,8 @@ body {
     .card {
         max-width: 100%;
         margin-bottom: 10vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
     .projecthead {
         margin-top: 10vh;
