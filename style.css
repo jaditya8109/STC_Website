@@ -283,8 +283,8 @@ html {
 }
 
 .gplayimag {
-  max-height: 15vh;
-  max-width: 15vh;
+  /* max-height: 15vh;
+  max-width: 15vh; */
 }
 
 .qrimage {
@@ -666,7 +666,7 @@ html {
   /* margin-left: 50px; */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-dark .navbar-nav {
     display: none;
   }
@@ -679,7 +679,21 @@ html {
   .mobilehome {
     margin-top: 10vh;
   }
+  .gplayimag {
+    max-height: 20vh;
+    max-width: 20vh;
+  }
+  
 }
+
+@media only screen and (max-width: 768px) and (min-width: 600px)  {
+   
+  .qrimage{
+    max-height: 12vh;
+    max-width: 12vw;
+  }
+}
+
 
 /* arrow */
 
