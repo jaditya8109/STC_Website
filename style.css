@@ -511,6 +511,14 @@ html {
   .domain_row_2 {
     display: none;
   }
+
+  .domains_mobile_view .arrow-left,
+  .domains_mobile_view .arrow-right {
+    height: 4rem;
+  }
+
+  .domains_mobile_view .carousel-inner img {
+  }
 }
 
 /* contact us page */
@@ -683,17 +691,14 @@ html {
     max-height: 20vh;
     max-width: 20vh;
   }
-  
 }
 
-@media only screen and (max-width: 768px) and (min-width: 600px)  {
-   
-  .qrimage{
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  .qrimage {
     max-height: 12vh;
     max-width: 12vw;
   }
 }
-
 
 /* arrow */
 
