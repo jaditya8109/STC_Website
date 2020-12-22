@@ -663,6 +663,14 @@ html {
   color: #f1f1f1;
 }
 
+.leftArrow{
+  height: 4rem;
+}
+
+.rightArrow{
+  height: 4rem;
+}
+
 #SideNav .closebtn {
   /* position: absolute;
     top: 0;
@@ -758,5 +766,24 @@ html {
   100% {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
+  }
+}
+
+
+@media only screen and (max-width: 322px){
+  .lead{
+      font-size: 1rem !important;
+      padding-right: 0.5rem;
+  }
+  .mobileCard{
+    padding-left: 0rem;
+  }
+  .leftArrow{
+    height: 2rem;
+    padding-right: 1.25rem;
+  }
+  .rightArrow{
+    height: 2rem;
+    padding-left: 1.25rem;
   }
 }
