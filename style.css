@@ -65,14 +65,14 @@ html {
 
 .landing_para {
   text-align: right;
-  font-size: 24px;
+  /* font-size: 20px; */
   font-size: 1.75em;
   font-weight: 350;
 }
 
 .landing_head {
   text-align: right;
-  font-size: 72px;
+  font-size: 50px;
   /* font-size: 4.70em; */
   padding-bottom: 2vh;
 }
@@ -663,11 +663,11 @@ html {
   color: #f1f1f1;
 }
 
-.leftArrow{
+.leftArrow {
   height: 4rem;
 }
 
-.rightArrow{
+.rightArrow {
   height: 4rem;
 }
 
@@ -769,20 +769,19 @@ html {
   }
 }
 
-
-@media only screen and (max-width: 322px){
-  .lead{
-      font-size: 1rem !important;
-      padding-right: 0.5rem;
+@media only screen and (max-width: 322px) {
+  .lead {
+    font-size: 1rem !important;
+    padding-right: 0.5rem;
   }
-  .mobileCard{
+  .mobileCard {
     padding-left: 0rem;
   }
-  .leftArrow{
+  .leftArrow {
     height: 2rem;
     padding-right: 1.25rem;
   }
-  .rightArrow{
+  .rightArrow {
     height: 2rem;
     padding-left: 1.25rem;
   }
