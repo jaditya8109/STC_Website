@@ -514,10 +514,7 @@ html {
 
   .domains_mobile_view .arrow-left,
   .domains_mobile_view .arrow-right {
-    height: 4rem;
-  }
-
-  .domains_mobile_view .carousel-inner img {
+    height: 2rem;
   }
 }
 
