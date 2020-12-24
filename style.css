@@ -737,11 +737,11 @@ html {
     padding-top: 5rem;
 } */
 
-#landscapeMode{
+#landscapeMode {
   display: none;
 }
 
-.landscapehead{
+.landscapehead {
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -808,34 +808,46 @@ html {
 }
 
 @media only screen and (max-width: 640px) {
-  @media screen and (orientation:landscape)
-  {
-    #landscapeMode{
+  @media screen and (orientation: landscape) {
+    #landscapeMode {
       display: block !important;
-      background-color:  white;
+      background-color: #202743;
+      color: #fff;
       height: 100vh;
     }
-    section:not([name="landscapeMode"]){
+    section:not([name="landscapeMode"]) {
       display: none;
-  }
-  #slider_mobile{
-    display: none !important;
-  }
-  #footer_mobile{
-    display: none !important;
-  } 
-  .circle{
-    display: none !important;
-  }
-    /* body
-    {
-        background: blue;
     }
-    #landing_page #our_focus #loremipsum #slider #slider_mobile{
+    #slider_mobile {
       display: none !important;
     }
-     #student_partnerships #board #about_app #domains #domains_mobile_views #contact_us_page #footer_stc #footer_mobile{
+    #footer_mobile {
       display: none !important;
-    }  */
+    }
+    .circle {
+      display: none !important;
+    }
   }
-} 
+}
+@media (min-width: 767px) and (max-width: 836px) {
+  @media screen and (orientation: landscape) {
+    #landscapeMode {
+      display: block !important;
+      background-color: #202743;
+      color: #fff;
+      height: 100vh;
+    }
+    section:not([name="landscapeMode"]) {
+      display: none;
+    }
+    #slider_mobile {
+      display: none !important;
+    }
+    #footer_mobile {
+      display: none !important;
+    }
+    .circle {
+      display: none !important;
+    }
+  }
+}
