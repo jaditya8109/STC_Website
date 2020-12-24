@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -15,7 +15,7 @@
     top: 100%;
     left: 0;
   }
-}
+} */
 #load {
   width: 100%;
   height: 100%;
@@ -737,6 +737,15 @@ html {
     padding-top: 5rem;
 } */
 
+#landscapeMode{
+  display: none;
+}
+
+.landscapehead{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
 #section05 a span {
   top: 0;
   left: 50%;
@@ -797,3 +806,36 @@ html {
     padding-left: 1.25rem;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  @media screen and (orientation:landscape)
+  {
+    #landscapeMode{
+      display: block !important;
+      background-color:  white;
+      height: 100vh;
+    }
+    section:not([name="landscapeMode"]){
+      display: none;
+  }
+  #slider_mobile{
+    display: none !important;
+  }
+  #footer_mobile{
+    display: none !important;
+  } 
+  .circle{
+    display: none !important;
+  }
+    /* body
+    {
+        background: blue;
+    }
+    #landing_page #our_focus #loremipsum #slider #slider_mobile{
+      display: none !important;
+    }
+     #student_partnerships #board #about_app #domains #domains_mobile_views #contact_us_page #footer_stc #footer_mobile{
+      display: none !important;
+    }  */
+  }
+} 
