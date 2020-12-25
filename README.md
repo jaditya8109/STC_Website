@@ -1,3 +1,3 @@
-# STC_Website
+## Student Technical Community , VIT Vellore
 
-https://jaditya8109.github.io/STC_Website/
+The website is meant to serve the purpose for the official website of Student Technical Community , VIT Vellore and all its operation.

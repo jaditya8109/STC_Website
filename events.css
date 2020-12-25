@@ -1,227 +1,234 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
-.card-img-top{
-    border-top-left-radius: calc(1.25rem - 1px) !important;
-    border-top-right-radius: calc(1.25rem - 1px) !important;
-    border-bottom-left-radius: calc(1.25rem - 1px) !important;
-    border-bottom-right-radius: calc(1.25rem - 1px) !important;
+.card-img-top {
+  border-top-left-radius: calc(1.25rem - 1px) !important;
+  border-top-right-radius: calc(1.25rem - 1px) !important;
+  border-bottom-left-radius: calc(1.25rem - 1px) !important;
+  border-bottom-right-radius: calc(1.25rem - 1px) !important;
 }
 
 #navbaritems a {
-    font-size: 1.15em;
-    color: white;
-    padding-left: 2em;
+  font-size: 1.15em;
+  color: white;
+  padding-left: 2em;
 }
 
 .nav_div {
-    padding-top: 1vh;
+  padding-top: 1vh;
 }
 
 #project {
-    background-color: #202743;
-    background-image: url("svg/waves.svg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
+  background-color: #202743;
+  background-image: url("svg/waves.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .projecthead {
-    color: white;
-    margin-top: 10vh;
-    font-size: 6em;
-    font-weight: 475;
+  color: white;
+  margin-top: 10vh;
+  font-size: 6em;
+  font-weight: 475;
 }
 
 .projectpara {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 3vh;
-    font-weight: 375;
-    font-size: 1.1em;
-    margin-bottom: 20vh;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 3vh;
+  font-weight: 375;
+  font-size: 1.1em;
+  margin-bottom: 20vh;
 }
 
 .cardsdiv {
-    margin-bottom: 15vh;
+  margin-bottom: 15vh;
 }
 
 .cardhead {
-    /* font-size: 1.1em; */
+  /* font-size: 1.1em; */
 }
 
 .card {
-    /* margin-bottom: 15vh; */
-    max-width: 85%;
-    border-radius: 20px !important;
-    height: 100% !important;
+  /* margin-bottom: 15vh; */
+  max-width: 85%;
+  border-radius: 20px !important;
+  height: 100% !important;
 }
 
-.myclass{
-    margin-bottom: 15vh;
+.myclass {
+  margin-bottom: 15vh;
 }
-
 
 /* footer */
 
 .footer_stc {
-    background-color: black;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    /* height: 100vh; */
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  /* height: 100vh; */
 }
 
 .footer_stc .footer_row_one ul {
-    list-style: none;
+  list-style: none;
 }
 
 .footer_stc .footer_row_one .col-md-4 {
-    margin-top: 15vmin;
+  margin-top: 15vmin;
 }
 
 .footer_stc .footer_row_one .col-md-4 img {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .footer_stc .footer_row_one ul li {
-    padding: 1.5rem 0rem;
+  padding: 1.5rem 0rem;
 }
 
 .footer_stc .footer_row_one ul li a {
-    color: #fff;
+  color: #fff;
 }
 
 .footer_row_3 p {
-    margin-top: 5vmin;
+  margin-top: 5vmin;
 }
 
 #footer_mobile {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 767px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
-    .footer_stc {
-        display: none;
-    }
-    #footer_mobile {
-        display: block;
-        background-color: black;
-        font-family: 'Raleway', sans-serif;
-        color: #fff;
-        min-height: 100vh;
-    }
-    #footer_mobile .row_link ul,
-    .row_get_touch ul {
-        list-style: none;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .footer_stc {
+    display: none;
+  }
+  #footer_mobile {
+    display: block;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    min-height: 100vh;
+  }
+  #footer_mobile .row_link ul,
+  .row_get_touch ul {
+    list-style: none;
+  }
+  .icon2 img,
+  .icon3 img,
+  .icon4 img {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .icon1 img {
+    width: 1.75rem;
+    height: 2rem;
+  }
 }
 
-@media only screen and (max-width: 575px){
-    .card{
-        margin-left: 5vw !important;
-        margin-right: 5vw !important;
-    }
+@media only screen and (max-width: 575px) {
+  .card {
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
-    .secondrow {
-        margin-top: 0vh;
-        margin-bottom: 0vh;
-    }
-    .card {
-        max-width: 100%;
-        margin-bottom: 10vh;
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
-    .projecthead {
-        margin-top: 10vh;
-        text-align: center;
-    }
-    .projectpara {
-        margin-top: 5vh;
-        margin-bottom: 15vh;
-        text-align: center;
-    }
-    #project {
-        background-color: #202743;
-        background-image: url("");
-    }
+  .secondrow {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+  .card {
+    max-width: 100%;
+    margin-bottom: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .projecthead {
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .projectpara {
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    text-align: center;
+  }
+  #project {
+    background-color: #202743;
+    background-image: url("");
+  }
 }
-
 
 /* nav */
 
 #SideNav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 #SideNav a {
-    padding: 8px 8px 30px 0px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 30px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 #SideNav a:hover {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 #SideNav .closebtn {
-    /* position: absolute; */
-    /* top: 0;
+  /* position: absolute; */
+  /* top: 0;
     right: 25px; */
-    font-size: 36px;
-    /* margin-left: 50px; */
+  font-size: 36px;
+  /* margin-left: 50px; */
 }
 
-@media(max-width:767px) {
-    .navbar-dark .navbar-nav {
-        display: none;
-    }
-    #SideNav {
-        padding-top: 15px;
-    }
-    #SideNav a {
-        font-size: 18px;
-    }
-    .mobilehome {
-        margin-top: 10vh;
-    }
+@media (max-width: 767px) {
+  .navbar-dark .navbar-nav {
+    display: none;
+  }
+  #SideNav {
+    padding-top: 15px;
+  }
+  #SideNav a {
+    font-size: 18px;
+  }
+  .mobilehome {
+    margin-top: 10vh;
+  }
 }
 
 .cardsdiv img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .cardsdiv .card {
-    box-shadow: rgba(255, 255, 255, 0.28) -2px -2px 25px, rgba(255, 255, 255, 0.28) 2px 2px 20px;
+  box-shadow: rgba(255, 255, 255, 0.28) -2px -2px 25px,
+    rgba(255, 255, 255, 0.28) 2px 2px 20px;
 }
 
 .cardsdiv .card-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
-
 
 /* @media only screen and (max-width: 991px){
     .card{
