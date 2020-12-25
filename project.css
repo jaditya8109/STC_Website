@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 body {
   color: white;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  html,
+  body {
+    margin-top: 0px;
+    overflow-x: hidden;
+  }
 }
 
 #navbaritems a {
@@ -100,15 +110,13 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  html,
-  body {
-    overflow-x: hidden;
-  }
+  /* #slider {
+        display: none;
+    } */
   .footer_stc {
     display: none;
   }
   #footer_mobile {
-    overflow-x: hidden;
     display: block;
     background-color: black;
     font-family: "Raleway", sans-serif;
@@ -118,17 +126,6 @@ body {
   #footer_mobile .row_link ul,
   .row_get_touch ul {
     list-style: none;
-  }
-
-  .icon2 img,
-  .icon3 img,
-  .icon4 img {
-    width: 1.75rem;
-    height: 1.75rem;
-  }
-  .icon1 img {
-    width: 1.75rem;
-    height: 2rem;
   }
 }
 
