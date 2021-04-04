@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 body {
-  color: white;
+  color: black;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
@@ -15,9 +15,19 @@ body {
   }
 }
 
+#first{
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+}
+
+#second{
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
 #navbaritems a {
   font-size: 1.15em;
-  color: white;
+  color: black;
   padding-left: 2em;
 }
 
@@ -26,26 +36,63 @@ body {
 }
 
 #project {
-  background-color: #202743;
-  background-image: url("svg/waves.svg");
+  /* background-color: #8389a5; */
+  /* background-image: url("svg/waves.svg"); */
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .projecthead {
-  color: white;
-  margin-top: 10vh;
-  font-size: 6em;
-  font-weight: 475;
+  color: #202743;
+  margin-top: 0vh;
+  font-size: 4em;
+  font-weight: 600;
+  text-align: left;
 }
 
 .projectpara {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: black;
   margin-top: 3vh;
-  font-weight: 375;
-  font-size: 1.1em;
-  margin-bottom: 20vh;
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 7vh;
+  text-align: left;
+}
+
+.viewAllButton{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #202743;
+  color: #f1f1f1;
+  border: none;
+}
+
+.buttonDiv{
+  margin-bottom: 7vh;
+}
+
+.headTwo{
+  font-size: 4.5em;
+}
+
+.headThree{
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.headfour{
+  text-align: center;
+}
+
+.headfive{
+  text-align: right;
+   font-size: 3em;
 }
 
 .cardsdiv {
@@ -160,7 +207,7 @@ body {
     text-align: center;
   }
   #project {
-    background-color: #202743;
+    /* background-color: #202743; */
     background-image: url("");
   }
 }
